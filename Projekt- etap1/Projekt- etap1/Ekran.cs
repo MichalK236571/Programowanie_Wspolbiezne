@@ -30,6 +30,11 @@ namespace Logic
             }
         }
 
+        public void bounce()
+        {
+
+        }
+
         
 
 
