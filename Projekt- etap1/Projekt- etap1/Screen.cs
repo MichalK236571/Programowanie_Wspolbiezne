@@ -8,7 +8,7 @@ namespace Logic
         private int minRadious { get; }
         private int maxRadious { get; }
 
-        private CirclesList<Circle> circles { get; set; }
+        private CirclesList<Circle> circles = new();
 
         public Screen(int w, int h)
         {
@@ -17,6 +17,12 @@ namespace Logic
             minRadious = Math.Min(w, h)/50;
             maxRadious = Math.Max(w, h)/25;
         }
+
+        public CirclesList<Circle> GetCircles()
+        {
+            return circles;
+        }
+        
 
         public void generateCircle()
         {
@@ -67,7 +73,13 @@ namespace Logic
 
         public void makeCircles(int amount)
         {
-            while (circles.Count() < amount)
+            //generateCircle();
+            //while (circles.Count() < amount-1)
+            //{
+            //    generateCircle();
+            //}
+
+            for(int i = 0; i < amount; i++)
             {
                 generateCircle();
             }
