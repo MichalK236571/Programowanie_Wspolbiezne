@@ -67,9 +67,9 @@ namespace Logic
 
         public void makeCircles(int amount)
         {
-            for(int i = 0; i < amount; i++)
+            while (circles.Count() < amount)
             {
-                
+                generateCircle();
             }
         }
 
