@@ -12,17 +12,17 @@ namespace Logic
 
         public Screen(int w, int h)
         {
-            width = w;  
+            width = w;
             height = h;
-            minRadious = Math.Min(w, h)/50;
-            maxRadious = Math.Max(w, h)/25;
+            minRadious = Math.Min(w, h) / 50;
+            maxRadious = Math.Max(w, h) / 25;
         }
 
         public CirclesList<Circle> GetCircles()
         {
             return circles;
         }
-        
+
 
         public void generateCircle()
         {
@@ -31,33 +31,33 @@ namespace Logic
             int randomY = 0;
             while (randomX == 0 && randomY == 0)
             {
-                randomX = random.Next(-1,1);
-                randomY = random.Next(-1,1);
+                randomX = random.Next(-1, 1);
+                randomY = random.Next(-1, 1);
             }
             addCircleToScreen(random.Next(minRadious, maxRadious), random.Next(maxRadious, width - maxRadious), random.Next(maxRadious, height - maxRadious), randomX, randomY);
         }
 
         public void addCircleToScreen(int radious, int x, int y, int xDirection, int yDirection)
         {
-            if (x < radious || x > width-radious ||
-                y < radious || y > height-radious)
+            if (x < radious || x > width - radious ||
+                y < radious || y > height - radious)
             {
                 Console.WriteLine("Blad");
             }
             else
             {
-                Circle circle = new Circle(radious,x,y,xDirection,yDirection);
+                Circle circle = new Circle(radious, x, y, xDirection, yDirection);
                 circles.AddCircle(circle);
             }
         }
 
-        
+
 
         public void bounceAndMove()
         {
-            foreach(Circle circle in circles.GetAllCircles())
+            foreach (Circle circle in circles.GetAllCircles())
             {
-                if(circle.XValue + circle.XDirection + circle.Radious > width || circle.XValue + circle.XDirection - circle.Radious < 0)
+                if (circle.XValue + circle.XDirection + circle.Radious > width || circle.XValue + circle.XDirection - circle.Radious < 0)
                 {
                     circle.XDirection = circle.XDirection * (-1);
                 }
@@ -79,7 +79,7 @@ namespace Logic
             //    generateCircle();
             //}
 
-            for(int i = 0; i < amount; i++)
+            for (int i = 0; i < amount; i++)
             {
                 generateCircle();
             }

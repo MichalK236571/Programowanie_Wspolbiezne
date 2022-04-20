@@ -10,7 +10,7 @@ namespace Data
 {
     public class CirclesList<T>
     {
-       private List<T> _list = new();
+        private List<T> _list = new();
 
         public void AddCircle(T obj)
         {
@@ -31,7 +31,7 @@ namespace Data
         {
             _list.Clear();
         }
- 
+
         public int Count()
         {
             int count = 0;
