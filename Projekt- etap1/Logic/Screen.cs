@@ -85,6 +85,9 @@ namespace Logic
             }
         }
 
-
+        public void ClearScreen()
+        {
+            circles.Clear();
+        }
     }
 }
