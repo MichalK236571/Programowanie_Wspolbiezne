@@ -9,23 +9,19 @@ namespace Model
         private int _height;
         private Screen _screen;
 
-        public Map()
+        public Map(int w, int h)
         {
-            _width = 650;
-            _height = 434;
+            _width = w;
+            _height = h;
             _screen = new Screen(_width, _height);
         }
 
-        public void Move(bool Running)
+        public void Move()
         {
-            while (Running)
-            {
-                _screen.bounceAndMove();
-            }
-            
+            _screen.bounceAndMove();   
         }
 
-        public CirclesList<Circle> GetAllCircles()
+        public List<Circle> GetAllCircles()
         {
             return _screen.GetCircles();
         }

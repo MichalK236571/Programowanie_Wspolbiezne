@@ -18,7 +18,7 @@ namespace View
     public partial class MainWindow : Window
 
 
-    {
+    {    
         VMClass vmclass = new VMClass();
         public MainWindow()
         {
@@ -32,7 +32,7 @@ namespace View
 
         private void Start_Button(object sender, RoutedEventArgs e)
         {
-
+            int amount = 10;
             vmclass.Start(amount);
         }
 

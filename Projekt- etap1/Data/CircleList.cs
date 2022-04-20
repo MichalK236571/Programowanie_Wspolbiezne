@@ -38,8 +38,9 @@ namespace Data
             foreach (T obj in _list)
                 count++;
             return count;
-
         }
+
+        
 
     }
 }

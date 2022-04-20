@@ -25,11 +25,15 @@ namespace Logic.Tests
         {
             Screen screen = new Screen(100, 150);
             Circle circle = new Circle(5, 5, 5, -2, -2);
-            screen.GetCircles().AddCircle(circle);
+            screen.GetCircles().Add(circle);
             screen.bounceAndMove();
             Assert.AreEqual(circle.XValue, 7);
             Assert.AreEqual(circle.YValue, 7);
 
         }
+
+
+
+
     }
 }

@@ -18,11 +18,10 @@ namespace Logic
             maxRadious = Math.Max(w, h) / 25;
         }
 
-        public CirclesList<Circle> GetCircles()
+        public List<Circle> GetCircles()
         {
-            return circles;
+            return circles.GetAllCircles();
         }
-
 
         public void generateCircle()
         {
@@ -84,7 +83,6 @@ namespace Logic
                 generateCircle();
             }
         }
-
         public void ClearScreen()
         {
             circles.Clear();
