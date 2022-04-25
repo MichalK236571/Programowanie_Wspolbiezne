@@ -1,26 +1,61 @@
 ﻿using Data;
 namespace Logic
 {
-    public class Screen
+    internal class BallsManager : LogicAbstactAPI
     {
+
+        private DataAbstactAPI dataApi;
         private int width { get; set; }
         private int height { get; set; }
         private int minRadious { get; }
         private int maxRadious { get; }
 
-        private CirclesList<Circle> circles = new();
+        private List<Ball> list = new();
 
-        public Screen(int w, int h)
+        public BallsManager(int w, int h)
         {
             width = w;
             height = h;
             minRadious = Math.Min(w, h) / 50;
             maxRadious = Math.Max(w, h) / 25;
+            dataApi = DataAbstactAPI.CreateApi();
         }
 
-        public List<Circle> GetCircles()
+        
+
+        public void AddBall(Ball obj)
         {
-            return circles.GetAllCircles();
+            list.Add(obj);
+        }
+
+        public List<Ball> GetAllBalls()
+        {
+            return list;
+        }
+
+        public void RemoveBall(Ball obj)
+        {
+            list.Remove(obj);
+        }
+
+        public void Clear()
+        {
+            list.Clear();
+        }
+
+        public int Count()
+        {
+            int count = 0;
+            foreach (Ball obj in list)
+                count++;
+            return count;
+        }
+
+        
+
+        public List<Ball> GetCircles()
+        {
+            return list;
         }
 
         public void generateCircle()
@@ -45,8 +80,8 @@ namespace Logic
             }
             else
             {
-                Circle circle = new Circle(radious, x, y, xDirection, yDirection);
-                circles.AddCircle(circle);
+                Ball ball = new Ball(radious, x, y, xDirection, yDirection);
+                list.Add(ball);
             }
         }
 
@@ -54,19 +89,19 @@ namespace Logic
 
         public void bounceAndMove()
         {
-            foreach (Circle circle in circles.GetAllCircles())
+            foreach (Ball ball in list)
             {
-                if (circle.XValue + circle.XDirection + circle.Radious > width || circle.XValue + circle.XDirection - circle.Radious < 0)
+                if (ball.XValue + ball.XDirection + ball.Radious > width || ball.XValue + ball.XDirection - ball.Radious < 0)
                 {
-                    circle.XDirection = circle.XDirection * (-1);
+                    ball.XDirection = ball.XDirection * (-1);
                 }
 
-                if (circle.YValue + circle.YDirection + circle.Radious > height || circle.YValue + circle.YDirection - circle.Radious < 0)
+                if (ball.YValue + ball.YDirection + ball.Radious > height || ball.YValue + ball.YDirection - ball.Radious < 0)
                 {
-                    circle.YDirection = circle.YDirection * (-1);
+                    ball.YDirection = ball.YDirection * (-1);
                 }
-                circle.XValue += circle.XDirection;
-                circle.YValue += circle.YDirection;
+                ball.XValue += ball.XDirection;
+                ball.YValue += ball.YDirection;
             }
         }
 
@@ -85,7 +120,7 @@ namespace Logic
         }
         public void ClearScreen()
         {
-            circles.Clear();
+            list.Clear();
         }
     }
 }

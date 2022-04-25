@@ -7,13 +7,13 @@ namespace Model
     {
         private int _width;
         private int _height;
-        private Screen _screen;
+        private BallsManager _screen;
 
         public Map(int w, int h)
         {
             _width = w;
             _height = h;
-            _screen = new Screen(_width, _height);
+            _screen = new BallsManager(_width, _height);
         }
 
         public void Move()

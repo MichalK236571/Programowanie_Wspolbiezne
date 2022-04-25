@@ -10,12 +10,12 @@ using System.Threading.Tasks;
 namespace Logic.Tests
 {
     [TestClass()]
-    public class ScreenTests
+    public class BallsTests
     {
         [TestMethod()]
         public void makeCircleTest()
         {
-            Screen screen = new Screen(100, 150);
+            BallsManager screen = new BallsManager(100, 150);
             screen.makeCircles(10);
             Assert.AreEqual(10, screen.GetCircles().Count());
         }
@@ -23,7 +23,7 @@ namespace Logic.Tests
         [TestMethod()]
         public void bounceAndMoveTest()
         {
-            Screen screen = new Screen(100, 150);
+            BallsManager screen = new BallsManager(100, 150);
             Circle circle = new Circle(5, 5, 5, -2, -2);
             screen.GetCircles().Add(circle);
             screen.bounceAndMove();
