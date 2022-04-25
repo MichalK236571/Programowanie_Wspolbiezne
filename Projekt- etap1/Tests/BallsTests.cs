@@ -49,7 +49,18 @@ namespace Logic.Tests
             _logic.RemoveAllBalls();
             Assert.AreEqual(0, _logic.GetAllBalls().Count);
         }
+        [TestMethod()]
+        public void BounceAndMoveTest()
+        {
+            
+            //Ball ball = new Ball(5, 5, 5, -2, -2);
+            _logic.AddBallToList(5, 5, 5, -2, -2);
+            Ball ball = _logic.GetBall(0);
+            _logic.BounceAndMove();
+            Assert.AreEqual(ball.XValue, 7);
+            Assert.AreEqual(ball.YValue, 7);
 
+        }
 
 
         /* [TestMethod()]
@@ -60,17 +71,7 @@ namespace Logic.Tests
              Assert.AreEqual(10, screen.GetCircles().Count());
          }
 
-         [TestMethod()]
-         public void bounceAndMoveTest()
-         {
-             BallsManager screen = new BallsManager(100, 150);
-             Ball circle = new Ball(5, 5, 5, -2, -2);
-             screen.GetBalls().Add(circle);
-             screen.bounceAndMove();
-             Assert.AreEqual(circle.XValue, 7);
-             Assert.AreEqual(circle.YValue, 7);
-
-         }*/
+         */
 
 
 

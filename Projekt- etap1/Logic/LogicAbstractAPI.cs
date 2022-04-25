@@ -11,6 +11,9 @@
         public abstract void generateBalls();
         public abstract void RemoveAllBalls();
         public abstract void makeBalls(int amount);
+        public abstract void BounceAndMove();
+        public abstract void AddBallToList(int radious, int x, int y, int xDirection, int yDirection);
+        public abstract Ball GetBall(int index);
 
     }
 }

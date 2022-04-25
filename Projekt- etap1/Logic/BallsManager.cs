@@ -21,6 +21,11 @@ namespace Logic
             dataApi = DataAbstactAPI.CreateApi();
         }
 
+
+        public override Ball GetBall(int index)
+        {
+            return list[index];
+        }
         public void AddBall(Ball obj)
         {
             list.Add(obj);
@@ -60,10 +65,10 @@ namespace Logic
                 randomX = random.Next(-1, 1);
                 randomY = random.Next(-1, 1);
             }
-            addBallsToScreen(random.Next(minRadious, maxRadious), random.Next(maxRadious, width - maxRadious), random.Next(maxRadious, height - maxRadious), randomX, randomY);
+            AddBallToList(random.Next(minRadious, maxRadious), random.Next(maxRadious, width - maxRadious), random.Next(maxRadious, height - maxRadious), randomX, randomY);
         }
 
-        public void addBallsToScreen(int radious, int x, int y, int xDirection, int yDirection)
+        public override void AddBallToList(int radious, int x, int y, int xDirection, int yDirection)
         {
             if (x < radious || x > width - radious ||
                 y < radious || y > height - radious)
@@ -79,7 +84,7 @@ namespace Logic
 
 
 
-        public void bounceAndMove()
+        public override void BounceAndMove()
         {
             foreach (Ball ball in list)
             {

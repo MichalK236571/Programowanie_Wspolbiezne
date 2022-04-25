@@ -5,36 +5,36 @@ namespace Model
 {
     public class Map
     {
-       /* private int _width;
+        private int _width;
         private int _height;
-        private BallsManager _screen;
+        private LogicAbstactAPI _screen;
 
         public Map(int w, int h)
         {
             _width = w;
             _height = h;
-            _screen = new BallsManager(_width, _height);
+            _screen = LogicAbstactAPI.CreateApi(_width, _height);
         }
 
-        public void Move()
+/*        public void Move()
         {
             _screen.bounceAndMove();   
-        }
+        }*/
 
-        public List<Circle> GetAllCircles()
+        public List<Ball> GetAllBallsInList()
         {
-            return _screen.GetCircles();
+            return _screen.GetAllBalls();
         }
 
         public void ClearMap()
         {
-            _screen.ClearScreen();  
+            _screen.RemoveAllBalls();  
         }
 
-        public void CreateCircles(int amount)
+        public void CreateBallsOnMap(int amount)
         {
-            _screen.makeCircles(amount);
-        }*/
+            _screen.makeBalls(amount);
+        }
 
 
     }

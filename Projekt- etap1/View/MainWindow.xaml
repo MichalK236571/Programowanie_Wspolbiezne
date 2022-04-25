@@ -23,7 +23,7 @@
                     <Canvas>
                         <Canvas.Background>
                             <RadialGradientBrush>
-                                <GradientStop Color="Blue"/>
+                                <GradientStop Color="Gray"/>
                             </RadialGradientBrush>
                         </Canvas.Background>
                     </Canvas>
