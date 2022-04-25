@@ -7,9 +7,9 @@
         xmlns:vm="clr-namespace:ViewModel;assembly=ViewModel"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" Background="LightGray">
-    <Window.DataContext>
-        <vm:VMClass/>
-    </Window.DataContext>
+   <!-- <Window.DataContext>
+        <vm:VMClass/> 
+    </Window.DataContext>-->
     <Grid>
         <TextBox Text="{Binding countBalls}"  HorizontalAlignment="Left" Height="29" Margin="670,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115" TextChanged="TextBox_TextChanged" RenderTransformOrigin="0.506,0.484" />
         <Button Click="Start_Button" Content="Start" HorizontalAlignment="Left" Height="29" Margin="670,103,0,0" VerticalAlignment="Top" Width="55"/>

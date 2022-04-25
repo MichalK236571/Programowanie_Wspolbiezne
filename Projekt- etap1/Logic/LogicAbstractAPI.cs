@@ -1,6 +1,4 @@
-﻿using Logic;
-
-namespace Data
+﻿namespace Logic
 {
     public abstract class LogicAbstactAPI
     {
@@ -9,7 +7,10 @@ namespace Data
             return new BallsManager(width,height);
         }
 
-        
+        public abstract List<Ball> GetAllBalls();
+        public abstract void generateBalls();
+        public abstract void RemoveAllBalls();
+        public abstract void makeBalls(int amount);
 
     }
 }

@@ -5,7 +5,7 @@ namespace Model
 {
     public class Map
     {
-        private int _width;
+       /* private int _width;
         private int _height;
         private BallsManager _screen;
 
@@ -34,7 +34,7 @@ namespace Model
         public void CreateCircles(int amount)
         {
             _screen.makeCircles(amount);
-        }
+        }*/
 
 
     }

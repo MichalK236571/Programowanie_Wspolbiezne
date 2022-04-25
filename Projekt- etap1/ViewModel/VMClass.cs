@@ -5,7 +5,7 @@ namespace ViewModel;
 
 public class VMClass
 {
-    private bool Running = false;
+   /* private bool Running = false;
     private string count = "ABCD";
     public string countBalls
     {
@@ -30,12 +30,12 @@ public class VMClass
         Running = true;
         map.CreateCircles(amount);
 
-  /*      while (Running)
+  *//*      while (Running)
         {
             await Task.Delay(10);
             map.Move();
             
-        }*/
+        }*//*
         
 
     }
@@ -54,5 +54,5 @@ public class VMClass
     public List<String> Items
     {
         get { return new List<String> { "One", "Two", "Three" }; }
-    }
+    }*/
 }

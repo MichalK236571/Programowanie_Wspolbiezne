@@ -1,6 +1,6 @@
 ﻿namespace Logic
 {
-    internal class Ball 
+    public class Ball 
     {
         public int Radious { get; set; }
         public int XValue { get; set; }

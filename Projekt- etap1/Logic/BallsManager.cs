@@ -21,14 +21,12 @@ namespace Logic
             dataApi = DataAbstactAPI.CreateApi();
         }
 
-        
-
         public void AddBall(Ball obj)
         {
             list.Add(obj);
         }
 
-        public List<Ball> GetAllBalls()
+        public override List<Ball> GetAllBalls()
         {
             return list;
         }
@@ -38,7 +36,7 @@ namespace Logic
             list.Remove(obj);
         }
 
-        public void Clear()
+        public override void RemoveAllBalls()
         {
             list.Clear();
         }
@@ -51,14 +49,8 @@ namespace Logic
             return count;
         }
 
-        
 
-        public List<Ball> GetCircles()
-        {
-            return list;
-        }
-
-        public void generateCircle()
+        public override void generateBalls()
         {
             Random random = new Random();
             int randomX = 0;
@@ -68,10 +60,10 @@ namespace Logic
                 randomX = random.Next(-1, 1);
                 randomY = random.Next(-1, 1);
             }
-            addCircleToScreen(random.Next(minRadious, maxRadious), random.Next(maxRadious, width - maxRadious), random.Next(maxRadious, height - maxRadious), randomX, randomY);
+            addBallsToScreen(random.Next(minRadious, maxRadious), random.Next(maxRadious, width - maxRadious), random.Next(maxRadious, height - maxRadious), randomX, randomY);
         }
 
-        public void addCircleToScreen(int radious, int x, int y, int xDirection, int yDirection)
+        public void addBallsToScreen(int radious, int x, int y, int xDirection, int yDirection)
         {
             if (x < radious || x > width - radious ||
                 y < radious || y > height - radious)
@@ -105,7 +97,7 @@ namespace Logic
             }
         }
 
-        public void makeCircles(int amount)
+        public override void makeBalls(int amount)
         {
             //generateCircle();
             //while (circles.Count() < amount-1)
@@ -115,12 +107,9 @@ namespace Logic
 
             for (int i = 0; i < amount; i++)
             {
-                generateCircle();
+                generateBalls();
             }
         }
-        public void ClearScreen()
-        {
-            list.Clear();
-        }
+
     }
 }
