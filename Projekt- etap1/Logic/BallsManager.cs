@@ -10,7 +10,7 @@ namespace Logic
         private int minRadious { get; }
         private int maxRadious { get; }
 
-        private List<Ball> list = new();
+        private List<BallInterface> list = new();
 
         public BallsManager(int w, int h)
         {
@@ -22,7 +22,7 @@ namespace Logic
         }
 
 
-        public override Ball GetBall(int index)
+        public override BallInterface GetBall(int index)
         {
             return list[index];
         }
@@ -31,7 +31,7 @@ namespace Logic
             list.Add(obj);
         }
 
-        public override List<Ball> GetAllBalls()
+        public override List<BallInterface> GetAllBalls()
         {
             return list;
         }

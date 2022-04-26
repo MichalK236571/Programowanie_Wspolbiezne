@@ -1,13 +1,7 @@
 ﻿namespace Logic
 {
-    public class Ball 
+    internal class Ball : BallInterface
     {
-        public int Radious { get; set; }
-        public int XValue { get; set; }
-        public int YValue { get; set; }
-        public int XDirection { get; set; }
-        public int YDirection { get; set; }
-
         public Ball(int r, int x, int y, int xDirection, int yDirection)
         {
             Radious = r;

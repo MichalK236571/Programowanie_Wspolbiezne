@@ -3,35 +3,35 @@ using Data;
 
 namespace Model
 {
-    public class Map
+    internal class Map : MapInterface
     {
         private int _width;
         private int _height;
         private LogicAbstactAPI _screen;
 
-        public Map(int w, int h)
+        public  Map(int w, int h)
         {
             _width = w;
             _height = h;
             _screen = LogicAbstactAPI.CreateApi(_width, _height);
         }
 
-/*        public void Move()
+        public override void Move()
         {
-            _screen.bounceAndMove();   
-        }*/
+            _screen.BounceAndMove();
+        }
 
-        public List<Ball> GetAllBallsInList()
+        public override List<BallInterface> GetAllBallsInList()
         {
             return _screen.GetAllBalls();
         }
 
-        public void ClearMap()
+        public override void ClearMap()
         {
             _screen.RemoveAllBalls();  
         }
 
-        public void CreateBallsOnMap(int amount)
+        public override void CreateBallsOnMap(int amount)
         {
             _screen.makeBalls(amount);
         }
