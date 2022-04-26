@@ -3,6 +3,7 @@ namespace Logic
 {
     internal class BallsManager : LogicAbstactAPI
     {
+        private BallInterface BallInterface;
 
         private DataAbstactAPI dataApi;
         private int width { get; set; }
@@ -77,8 +78,7 @@ namespace Logic
             }
             else
             {
-                Ball ball = new Ball(radious, x, y, xDirection, yDirection);
-                list.Add(ball);
+                list.Add(BallInterface.CreateBall(radious,x,y,xDirection,yDirection));
             }
         }
 

@@ -9,10 +9,17 @@ namespace Model
 {
     public abstract class MapInterface
     {
-        internal static Map CreateMap(int w, int h)
+        
+        public static MapInterface CreateMap(int w, int h)
         {
             return new Map(w,h);
         }
+
+        
+
+        
+
+        
 
         public abstract void Move();
         public abstract List<BallInterface> GetAllBallsInList();

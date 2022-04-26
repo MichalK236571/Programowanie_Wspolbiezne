@@ -1,17 +1,29 @@
 ﻿using Caliburn.Micro;
 using Model;
+using Logic;
 namespace ViewModel;
 
 
 public class VMClass
 {
 
-    private Map _map { get; }
+    public MapInterface _map { get; }
+    public int _width { get; set; }
+    public int _height { get; set; }
 
-    public BallInterface[]? GetBalls()
+    public VMClass()
     {
-        get => _map.GetAllBallsInList().ToArray();
+        _map = MapInterface.CreateMap(650,434);
+        _width = 650;
+        _height = 434;
+
     }
+
+    public BallInterface[]? GetBalls {
+        get => _map.GetAllBallsInList().ToArray(); 
+        
+    }
+    
 
    // public BallApi[]? GetBalls { get => _mainMap.GetBalls().ToArray(); }
     /* private bool Running = false;
