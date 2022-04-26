@@ -1,4 +1,4 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿/*using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Logic;
 using Data;
 using System;
@@ -63,7 +63,7 @@ namespace Logic.Tests
         }
 
 
-        /* [TestMethod()]
+        *//* [TestMethod()]
          public void makeCircleTest()
          {
              BallsManager screen = new BallsManager(100, 150);
@@ -71,10 +71,10 @@ namespace Logic.Tests
              Assert.AreEqual(10, screen.GetCircles().Count());
          }
 
-         */
+         *//*
 
 
 
 
     }
-}
+}*/

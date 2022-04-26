@@ -11,9 +11,9 @@
         <vm:VMClass/> 
     </Window.DataContext>
     <Grid>
-        <TextBox HorizontalAlignment="Left" Height="29" Margin="670,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115" TextChanged="TextBox_TextChanged" RenderTransformOrigin="0.506,0.484" />
-        <Button Click="Start_Button" Content="Start" HorizontalAlignment="Left" Height="29" Margin="670,103,0,0" VerticalAlignment="Top" Width="55"/>
-        <Button Click="Stop_Button" Content="Stop" HorizontalAlignment="Left" Height="29" Margin="730,103,0,0" VerticalAlignment="Top" Width="55"/>
+        <TextBox HorizontalAlignment="Left" Height="29" Margin="670,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115"  RenderTransformOrigin="0.506,0.484" />
+        <Button Command="{Binding _start}" Content="Start" HorizontalAlignment="Left" Height="29" Margin="670,103,0,0" VerticalAlignment="Top" Width="55"/>
+        <Button Command="{Binding _pause}" Content="Stop" HorizontalAlignment="Left" Height="29" Margin="730,103,0,0" VerticalAlignment="Top" Width="55"/>
         <ItemsControl ItemsSource="{Binding GetBalls}"
                       Margin="0,0,150,0"
                       Width="{Binding _width}"

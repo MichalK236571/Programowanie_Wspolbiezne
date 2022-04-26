@@ -19,26 +19,10 @@ namespace View
 
 
     {    
-        VMClass vmclass = new VMClass();
         public MainWindow()
         {
-            //InitializeComponent();
+            InitializeComponent();
         }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
-        }
-
-        private void Start_Button(object sender, RoutedEventArgs e)
-        {
-            int amount = 10;
-           // vmclass.Start(amount);
-        }
-
-        private void Stop_Button(object sender, RoutedEventArgs e)
-        {
-            //vmclass.Stop();
-        }
     }
 }
