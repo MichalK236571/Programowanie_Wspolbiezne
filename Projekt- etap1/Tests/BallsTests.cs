@@ -1,4 +1,4 @@
-﻿/*using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Logic;
 using Data;
 using System;
@@ -53,28 +53,14 @@ namespace Logic.Tests
         public void BounceAndMoveTest()
         {
             
-            //Ball ball = new Ball(5, 5, 5, -2, -2);
+            
             _logic.AddBallToList(5, 5, 5, -2, -2);
-            Ball ball = _logic.GetBall(0);
+            BallApi ball = _logic.GetBall(0);
             _logic.BounceAndMove();
             Assert.AreEqual(ball.XValue, 7);
             Assert.AreEqual(ball.YValue, 7);
 
         }
 
-
-        *//* [TestMethod()]
-         public void makeCircleTest()
-         {
-             BallsManager screen = new BallsManager(100, 150);
-             screen.makeCircles(10);
-             Assert.AreEqual(10, screen.GetCircles().Count());
-         }
-
-         *//*
-
-
-
-
     }
-}*/
+}

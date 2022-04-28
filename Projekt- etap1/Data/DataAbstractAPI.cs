@@ -6,7 +6,6 @@
         {
             return new Data();
         }
-
         public abstract void Connect();
 
     }

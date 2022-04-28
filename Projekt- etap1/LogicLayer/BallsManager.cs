@@ -3,41 +3,40 @@ namespace Logic
 {
     internal class BallsManager : LogicAbstactAPI
     {
-        private BallInterface BallInterface;
 
         private DataAbstactAPI dataApi;
         private int width { get; set; }
         private int height { get; set; }
-        private int minRadious { get; }
-        private int maxRadious { get; }
+        private int minRadius { get; }
+        private int maxRadius { get; }
 
-        private List<BallInterface> list = new();
+        private List<BallApi> list = new();
 
         public BallsManager(int w, int h)
         {
             width = w;
             height = h;
-            minRadious = Math.Min(w, h) / 50;
-            maxRadious = Math.Max(w, h) / 25;
+            minRadius = Math.Min(w, h) / 60;
+            maxRadius = Math.Max(w, h) / 20;
             dataApi = DataAbstactAPI.CreateApi();
         }
 
 
-        public override BallInterface GetBall(int index)
+        public override BallApi GetBall(int index)
         {
             return list[index];
         }
-        public void AddBall(Ball obj)
+        public void AddBall(BallApi obj)
         {
             list.Add(obj);
         }
 
-        public override List<BallInterface> GetAllBalls()
+        public override List<BallApi> GetAllBalls()
         {
             return list;
         }
 
-        public void RemoveBall(Ball obj)
+        public void RemoveBall(BallApi obj)
         {
             list.Remove(obj);
         }
@@ -50,7 +49,7 @@ namespace Logic
         public int Count()
         {
             int count = 0;
-            foreach (Ball obj in list)
+            foreach (BallApi obj in list)
                 count++;
             return count;
         }
@@ -63,22 +62,23 @@ namespace Logic
             int randomY = 0;
             while (randomX == 0 && randomY == 0)
             {
-                randomX = random.Next(-1, 1);
-                randomY = random.Next(-1, 1);
+                randomX = random.Next(-6, 6);
+                randomY = random.Next(-6, 6);
             }
-            AddBallToList(random.Next(minRadious, maxRadious), random.Next(maxRadious, width - maxRadious), random.Next(maxRadious, height - maxRadious), randomX, randomY);
+            AddBallToList(random.Next(minRadius, maxRadius), random.Next(maxRadius, width - maxRadius), random.Next(maxRadius, height - maxRadius), randomX, randomY);
         }
 
-        public override void AddBallToList(int radious, int x, int y, int xDirection, int yDirection)
+        public override void AddBallToList(int radius, int x, int y, int xDirection, int yDirection)
         {
-            if (x < radious || x > width - radious ||
-                y < radious || y > height - radious)
+             if(x < radius || x > width - radius || y < radius || y > height - radius)
             {
                 Console.WriteLine("Blad");
+                throw new Exception();
             }
             else
             {
-                list.Add(BallInterface.CreateBall(radious,x,y,xDirection,yDirection));
+                BallApi ball =  BallApi.CreateBall( x, y,radius, xDirection, yDirection);
+                list.Add(ball);
             }
         }
 
@@ -86,14 +86,14 @@ namespace Logic
 
         public override void BounceAndMove()
         {
-            foreach (Ball ball in list)
+            foreach (BallApi ball in list)
             {
-                if (ball.XValue + ball.XDirection + ball.Radious > width || ball.XValue + ball.XDirection - ball.Radious < 0)
+                if (ball.XValue + ball.XDirection + ball.Radius > width || ball.XValue + ball.XDirection - ball.Radius < 0)
                 {
                     ball.XDirection = ball.XDirection * (-1);
                 }
 
-                if (ball.YValue + ball.YDirection + ball.Radious > height || ball.YValue + ball.YDirection - ball.Radious < 0)
+                if (ball.YValue + ball.YDirection + ball.Radius > height || ball.YValue + ball.YDirection - ball.Radius < 0)
                 {
                     ball.YDirection = ball.YDirection * (-1);
                 }
@@ -104,12 +104,6 @@ namespace Logic
 
         public override void makeBalls(int amount)
         {
-            //generateCircle();
-            //while (circles.Count() < amount-1)
-            //{
-            //    generateCircle();
-            //}
-
             for (int i = 0; i < amount; i++)
             {
                 generateBalls();
