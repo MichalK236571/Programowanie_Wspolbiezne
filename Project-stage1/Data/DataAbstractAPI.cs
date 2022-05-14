@@ -4,7 +4,7 @@
     {
         public static DataAbstactAPI CreateApi()
         {
-            return new Data();
+            return new BallData();
         }
         public abstract void Connect();
 

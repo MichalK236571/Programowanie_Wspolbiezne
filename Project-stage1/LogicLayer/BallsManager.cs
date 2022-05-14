@@ -9,6 +9,7 @@ namespace Logic
         private int height { get; set; }
         private int minRadius { get; }
         private int maxRadius { get; }
+        
 
         private List<BallApi> list = new();
 
@@ -16,8 +17,9 @@ namespace Logic
         {
             width = w;
             height = h;
-            minRadius = Math.Min(w, h) / 60;
-            maxRadius = Math.Max(w, h) / 20;
+            /*minRadius = Math.Min(w, h) / 60;
+            maxRadius = Math.Max(w, h) / 20;*/
+
             dataApi = DataAbstactAPI.CreateApi();
         }
 
@@ -54,7 +56,6 @@ namespace Logic
             return count;
         }
 
-
         public override void generateBalls()
         {
             Random random = new Random();
@@ -65,7 +66,8 @@ namespace Logic
                 randomX = random.Next(-6, 6);
                 randomY = random.Next(-6, 6);
             }
-            AddBallToList(random.Next(minRadius, maxRadius), random.Next(maxRadius, width - maxRadius), random.Next(maxRadius, height - maxRadius), randomX, randomY);
+            //AddBallToList(random.Next(minRadius, maxRadius), random.Next(maxRadius, width - maxRadius), random.Next(maxRadius, height - maxRadius), randomX, randomY);
+            AddBallToList(15, random.Next(maxRadius, width - maxRadius), random.Next(maxRadius, height - maxRadius), randomX, randomY);
         }
 
         public override void AddBallToList(int radius, int x, int y, int xDirection, int yDirection)
@@ -81,8 +83,6 @@ namespace Logic
                 list.Add(ball);
             }
         }
-
-
 
         public override void BounceAndMove()
         {

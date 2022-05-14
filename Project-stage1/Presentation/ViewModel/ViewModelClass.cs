@@ -100,6 +100,8 @@ namespace Presentation.ViewModel
         {
             try
             {
+                
+
                 int numberOfBalls = int.Parse(this.numberOfBalls);
 
                 if (numberOfBalls < 1)
