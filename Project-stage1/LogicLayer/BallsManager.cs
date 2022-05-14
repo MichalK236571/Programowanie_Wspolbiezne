@@ -4,7 +4,7 @@ namespace Logic
     internal class BallsManager : LogicAbstactAPI
     {
 
-        private DataAbstactAPI dataApi;
+        private Board dataApi;
         private int width { get; set; }
         private int height { get; set; }
         private int minRadius { get; }

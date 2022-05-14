@@ -1,9 +1,9 @@
 ﻿namespace Data
 {
-    public abstract class DataAbstactAPI
+    public abstract class DataBallAPI
     {
        
-        public static DataAbstactAPI CreateDataBallAPI(int xV, int yV, int radius,int weight, int xDir, int yDir)
+        public static DataBallAPI CreateDataBallAPI(int xV, int yV, int radius,int weight, int xDir, int yDir)
         {
             return new BallData(xV, yV, radius,weight, xDir, yDir);
         }

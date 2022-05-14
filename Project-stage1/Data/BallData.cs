@@ -1,6 +1,6 @@
 ﻿namespace Data
 {
-    internal class BallData : DataAbstactAPI
+    internal class BallData : DataBallAPI
     {
 
         private int radius;
