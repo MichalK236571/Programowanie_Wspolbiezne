@@ -20,7 +20,7 @@ namespace Logic
             /*minRadius = Math.Min(w, h) / 60;
             maxRadius = Math.Max(w, h) / 20;*/
 
-            dataApi = DataAbstactAPI.CreateApi();
+            //dataApi = DataAbstactAPI.CreateDataBallAPI();
         }
 
 
