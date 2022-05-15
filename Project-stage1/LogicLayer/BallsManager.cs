@@ -16,7 +16,7 @@ namespace Logic
 
         
 
-        private List<BallApi> list = new();
+        private List<BallLogicAPI> list = new();
 
         public BallsManager(int w, int h)
         {
@@ -31,16 +31,16 @@ namespace Logic
         }
 
 
-        public override BallApi GetBall(int index)
+        public override BallLogicAPI GetBall(int index)
         {
             return list[index];
         }
-        public void AddBall(BallApi obj)
+        public void AddBall(BallLogicAPI obj)
         {
             list.Add(obj);
         }
 
-        public override List<BallApi> GetAllBalls()
+        public override List<BallLogicAPI> GetAllBalls()
         {
             return list;
         }
@@ -79,7 +79,7 @@ namespace Logic
                 throw new Exception();
             }
             BallDataAPI dataBallAPI = boardAPI.createDataBallAPI(x, y, radius, weight, xDirection, yDirection);
-            BallApi ball =  BallApi.CreateBall( x, y,radius,weight, xDirection, yDirection);
+            BallLogicAPI ball = BallLogicAPI.CreateBall( x, y,radius,weight, xDirection, yDirection);
             /*dataBallAPI.PropertyChanged += ball.Update!;
             dataBallAPI.PropertyChanged += CheckIfCollisioned!;*/
             list.Add(ball);
@@ -88,7 +88,7 @@ namespace Logic
 
         public override void BounceAndMove()
         {
-            foreach (BallApi ball in list)
+            foreach (BallLogicAPI ball in list)
             {
                 if (ball.XValue + ball.XDirection + ball.Radius > width || ball.XValue + ball.XDirection - ball.Radius < 0)
                 {

@@ -94,7 +94,7 @@ namespace Presentation.ViewModel
             }
         }
 
-        public BallApi[]? GetBalls { get => mainMap.GetBalls().ToArray(); }
+        public BallLogicAPI[]? GetBalls { get => mainMap.GetBalls().ToArray(); }
 
         public void Create()
         {

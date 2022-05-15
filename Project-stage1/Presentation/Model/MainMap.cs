@@ -11,7 +11,7 @@ namespace Presentation.Model
         }
 
         public abstract void Move();
-        public abstract List<BallApi> GetBalls();
+        public abstract List<BallLogicAPI> GetBalls();
         public abstract void CreateBalls(int amount);
         public abstract void ClearMap();
 
@@ -33,7 +33,7 @@ namespace Presentation.Model
                 screen.BounceAndMove();
             }
 
-            public override List<BallApi> GetBalls()
+            public override List<BallLogicAPI> GetBalls()
             {
                 return screen.GetAllBalls();
             }

@@ -2,7 +2,7 @@
 using System.Runtime.CompilerServices;
 namespace Data
 {
-    internal class BallData : BallDataAPI
+    internal class BallData : BallDataAPI, INotifyPropertyChanged
     {
 
         private int radius;

@@ -1,22 +1,65 @@
-﻿namespace Logic
+﻿using System.ComponentModel;
+using System.Runtime.CompilerServices;
+using Data;
+
+namespace Logic
 {
-    public abstract class BallApi
+    public  class Ball : BallLogicAPI, INotifyPropertyChanged
     {
-        public static BallApi CreateBall( int xV, int yV, int radius,int weight, int xDir, int yDir)
+
+
+        // public class Ball : BallApi, INotifyPropertyChanged
+        //{
+        private int radius;
+        private int xValue;
+        private int yValue;
+        private int xDirection;
+        private int yDirection;
+        private int weight;
+
+        public override int Radius
         {
-            return new Ball( xV, yV, radius,weight, xDir, yDir);
+            get => radius;
+            set { radius = value; }
         }
 
-        public int XValue { get; set; }
-        public int YValue { get; set; }
-        public int XDirection { get; set; }
-        public int YDirection { get; set; }
-        public int Radius { get; set; }
-        public int Weight { get; set; }
-
-        public class Ball : BallApi
+        public override int XValue
         {
+            get => xValue;
+            set { xValue = value; OnPropertyChanged(); }
+        }
 
+        public override int YValue
+        {
+            get => yValue;
+            set { yValue = value; OnPropertyChanged(); }
+        }
+
+        public override int XDirection
+        {
+            get => xDirection;
+            set
+            {
+                xDirection = value;
+            }
+        }
+
+        public override int YDirection
+        {
+            get => yDirection;
+            set
+            {
+                yDirection = value;
+            }
+        }
+
+        public override int Weight
+        {
+            get => weight;
+            set { weight = value; }
+        }
+
+        public override event PropertyChangedEventHandler? PropertyChanged;
             public Ball(int x, int y, int r,int weight, int xDirection, int yDirection)
             {
                 Radius = r;
@@ -27,6 +70,16 @@
                 YDirection = yDirection;
             }
 
+       // }
+
+        private void OnPropertyChanged([CallerMemberName] string? name = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
+        }
+
+        public override void Update(Object obj, PropertyChangedEventArgs e)
+        {
+            GetType().GetProperty(e.PropertyName!)!.SetValue(this, obj); //??? - Nie wiem czy tak może być
         }
     }
 }
