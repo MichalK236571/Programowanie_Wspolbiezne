@@ -12,7 +12,7 @@
         public abstract void RemoveAllBalls();
         public abstract void makeBalls(int amount);
         public abstract void BounceAndMove();
-        public abstract void AddBallToList(int radius, int x, int y, int xDirection, int yDirection);
+        public abstract void AddBallToList(int radius, int x, int y,int weight, int xDirection, int yDirection);
         public abstract BallApi GetBall(int index);
 
     }

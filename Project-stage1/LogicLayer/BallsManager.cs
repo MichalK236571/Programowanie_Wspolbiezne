@@ -9,6 +9,11 @@ namespace Logic
         private int height { get; set; }
         private int minRadius { get; }
         private int maxRadius { get; }
+        private int weight = 10;
+
+        private BoardAPI boardAPI;
+
+
         
 
         private List<BallApi> list = new();
@@ -17,6 +22,7 @@ namespace Logic
         {
             width = w;
             height = h;
+            
             /*minRadius = Math.Min(w, h) / 60;
             maxRadius = Math.Max(w, h) / 20;*/
 
@@ -67,21 +73,26 @@ namespace Logic
                 randomY = random.Next(-6, 6);
             }
             //AddBallToList(random.Next(minRadius, maxRadius), random.Next(maxRadius, width - maxRadius), random.Next(maxRadius, height - maxRadius), randomX, randomY);
-            AddBallToList(15, random.Next(maxRadius, width - maxRadius), random.Next(maxRadius, height - maxRadius), randomX, randomY);
+            AddBallToList(15, random.Next(maxRadius, width - maxRadius), random.Next(maxRadius, height - maxRadius),weight, randomX, randomY);
         }
 
-        public override void AddBallToList(int radius, int x, int y, int xDirection, int yDirection)
+        public override void AddBallToList(int radius, int x, int y,int weight, int xDirection, int yDirection)
         {
              if(x < radius || x > width - radius || y < radius || y > height - radius)
             {
                 Console.WriteLine("Blad");
                 throw new Exception();
             }
-            else
+
+            if(list.Any(Ball => Math.Abs(x - Ball.XValue) <= radius && Math.Abs(y - Ball.YValue) <= radius))
             {
-                BallApi ball =  BallApi.CreateBall( x, y,radius, xDirection, yDirection);
-                list.Add(ball);
+                Console.WriteLine("Blad");
+                throw new Exception();
             }
+            DataBallAPI dataBallAPI = boardAPI.createDataBallAPI(x, y, radius, weight, xDirection, yDirection);
+            BallApi ball =  BallApi.CreateBall( x, y,radius,weight, xDirection, yDirection);
+            list.Add(ball);
+            
         }
 
         public override void BounceAndMove()
@@ -91,14 +102,15 @@ namespace Logic
                 if (ball.XValue + ball.XDirection + ball.Radius > width || ball.XValue + ball.XDirection - ball.Radius < 0)
                 {
                     ball.XDirection = ball.XDirection * (-1);
+                    
                 }
 
                 if (ball.YValue + ball.YDirection + ball.Radius > height || ball.YValue + ball.YDirection - ball.Radius < 0)
                 {
                     ball.YDirection = ball.YDirection * (-1);
                 }
-                ball.XValue += ball.XDirection;
-                ball.YValue += ball.YDirection;
+                /*ball.XValue += ball.XDirection;
+                ball.YValue += ball.YDirection;*/
             }
         }
 
