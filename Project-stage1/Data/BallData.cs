@@ -1,6 +1,8 @@
-﻿namespace Data
+﻿using System.ComponentModel;
+using System.Runtime.CompilerServices;
+namespace Data
 {
-    internal class BallData : DataBallAPI
+    internal class BallData : BallDataAPI
     {
 
         private int radius;
@@ -9,6 +11,7 @@
         private int xDirection;
         private int yDirection;
         private int weight;
+        public override event PropertyChangedEventHandler? PropertyChanged;
 
         public override int Radius
         {
@@ -19,25 +22,30 @@
         public override int XValue
         {
             get => xValue;
-            set { xValue = value; }
+            set { xValue = value; OnPropertyChanged(); }
         }
 
         public override int YValue
         {
             get => yValue;
-            set { yValue = value; }
+            set { yValue = value; OnPropertyChanged(); }
         }
 
         public override int XDirection
         {
             get => xDirection;
-            set { xDirection = value; }
+            set { xDirection = value;
+                OnPropertyChanged();
+            }
         }
 
         public override int YDirection
         {
             get => yDirection;
-            set { yDirection = value; }
+            set {
+                yDirection = value;
+                OnPropertyChanged();
+            }
         }
 
         public override int Weight
@@ -70,6 +78,11 @@
         {
             XValue += XDirection;
             YValue += YDirection;
+        }
+
+        private void OnPropertyChanged([CallerMemberName] string? name = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
         }
 
 

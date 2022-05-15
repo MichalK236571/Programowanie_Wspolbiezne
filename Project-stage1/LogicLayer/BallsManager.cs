@@ -22,6 +22,7 @@ namespace Logic
         {
             width = w;
             height = h;
+            boardAPI = BoardAPI.createAPI(w, h);
             
             /*minRadius = Math.Min(w, h) / 60;
             maxRadius = Math.Max(w, h) / 20;*/
@@ -44,22 +45,10 @@ namespace Logic
             return list;
         }
 
-        public void RemoveBall(BallApi obj)
-        {
-            list.Remove(obj);
-        }
-
         public override void RemoveAllBalls()
         {
             list.Clear();
-        }
-
-        public int Count()
-        {
-            int count = 0;
-            foreach (BallApi obj in list)
-                count++;
-            return count;
+            boardAPI.removeBalls();
         }
 
         public override void generateBalls()
@@ -89,8 +78,10 @@ namespace Logic
                 Console.WriteLine("Blad");
                 throw new Exception();
             }
-            DataBallAPI dataBallAPI = boardAPI.createDataBallAPI(x, y, radius, weight, xDirection, yDirection);
+            BallDataAPI dataBallAPI = boardAPI.createDataBallAPI(x, y, radius, weight, xDirection, yDirection);
             BallApi ball =  BallApi.CreateBall( x, y,radius,weight, xDirection, yDirection);
+            /*dataBallAPI.PropertyChanged += ball.Update!;
+            dataBallAPI.PropertyChanged += CheckIfCollisioned!;*/
             list.Add(ball);
             
         }
