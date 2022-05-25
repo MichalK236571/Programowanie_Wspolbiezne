@@ -8,8 +8,7 @@ namespace Logic
     {
 
 
-        // public class Ball : BallApi, INotifyPropertyChanged
-        //{
+        
         private int radius;
         private int xValue;
         private int yValue;
@@ -70,7 +69,7 @@ namespace Logic
                 YDirection = yDirection;
             }
 
-       // }
+       
 
         private void OnPropertyChanged([CallerMemberName] string? name = null)
         {

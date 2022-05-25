@@ -80,6 +80,16 @@ namespace Data
             YValue += YDirection;
         }
 
+        public override void ChangeXdir()
+        {
+            XDirection *= -1;
+        }
+
+        public override void ChangeYdir()
+        {
+            YDirection *= -1;
+        }
+
         private void OnPropertyChanged([CallerMemberName] string? name = null)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));

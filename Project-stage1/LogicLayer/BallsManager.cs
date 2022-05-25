@@ -1,4 +1,6 @@
 ﻿using Data;
+using System.ComponentModel;
+
 namespace Logic
 {
     internal class BallsManager : LogicAbstactAPI
@@ -7,22 +9,24 @@ namespace Logic
         private Board dataApi;
         private int width { get; set; }
         private int height { get; set; }
-        private int minRadius { get; }
-        private int maxRadius { get; }
-        private int weight = 10;
-
+        private int radius = 15;
+/*        private int minRadius { get; }
+        private int maxRadius { get; }*/
+        private int weight = 100;
+        private Dictionary<BallDataAPI, BallDataAPI> ballsLastCollision = new();
         private BoardAPI boardAPI;
+        private readonly object syncObject = new();
 
-
-        
 
         private List<BallLogicAPI> list = new();
 
-        public BallsManager(int w, int h)
+        public BallsManager(BoardAPI boardAPI)// int w, int h)
         {
-            width = w;
-            height = h;
-            boardAPI = BoardAPI.createAPI(w, h);
+            boardAPI = boardAPI;
+            width = boardAPI.Width;
+            height = boardAPI.Height;
+ 
+
             
             /*minRadius = Math.Min(w, h) / 60;
             maxRadius = Math.Max(w, h) / 20;*/
@@ -62,7 +66,7 @@ namespace Logic
                 randomY = random.Next(-6, 6);
             }
             //AddBallToList(random.Next(minRadius, maxRadius), random.Next(maxRadius, width - maxRadius), random.Next(maxRadius, height - maxRadius), randomX, randomY);
-            AddBallToList(15, random.Next(maxRadius, width - maxRadius), random.Next(maxRadius, height - maxRadius),weight, randomX, randomY);
+            AddBallToList(radius, random.Next(radius, width - radius), random.Next(radius, height - radius),weight, randomX, randomY);
         }
 
         public override void AddBallToList(int radius, int x, int y,int weight, int xDirection, int yDirection)
@@ -80,13 +84,41 @@ namespace Logic
             }
             BallDataAPI dataBallAPI = boardAPI.createDataBallAPI(x, y, radius, weight, xDirection, yDirection);
             BallLogicAPI ball = BallLogicAPI.CreateBall( x, y,radius,weight, xDirection, yDirection);
-            /*dataBallAPI.PropertyChanged += ball.Update!;
-            dataBallAPI.PropertyChanged += CheckIfCollisioned!;*/
+            dataBallAPI.PropertyChanged += ball.Update!;
+            dataBallAPI.PropertyChanged += CheckIfCollisioned!;
             list.Add(ball);
             
         }
 
-        public override void BounceAndMove()
+        public override void CheckIfCollisioned(Object s, PropertyChangedEventArgs e)
+        {
+            BallDataAPI ball = (BallDataAPI)s;
+
+            if (e.PropertyName is not ("XValue" or "YValue")) return;
+
+            BallReflection(ball);
+            WallReflection(ball);
+        }
+
+        private void WallReflection(BallDataAPI ball)
+        {
+            if (ball.XValue + ball.XDirection >= width - radius ||
+               ball.XValue + ball.XDirection <= radius)
+            {
+                ballsLastCollision.Remove(ball);
+                ball.ChangeXdir();
+            }
+
+            if (ball.YValue + ball.YDirection >= height - radius ||
+                ball.YValue + ball.YDirection <= radius)
+            {
+                ballsLastCollision.Remove(ball);
+                ball.ChangeYdir();
+            }
+        }
+
+
+/*        public override void BounceAndMove()
         {
             foreach (BallLogicAPI ball in list)
             {
@@ -100,10 +132,96 @@ namespace Logic
                 {
                     ball.YDirection = ball.YDirection * (-1);
                 }
-                /*ball.XValue += ball.XDirection;
-                ball.YValue += ball.YDirection;*/
+                *//*ball.XValue += ball.XDirection;
+                ball.YValue += ball.YDirection;*//*
+            }
+        }*/
+
+
+        private void BallReflection(BallDataAPI ball1)
+        {
+            lock (syncObject)
+            {
+                foreach (BallDataAPI ball2 in boardAPI.getBalls().ToArray())
+                {
+                    BallDataAPI lastBall1, lastBall2;
+                    if ((ballsLastCollision.TryGetValue(ball1, out lastBall1!) &&
+                        ballsLastCollision.TryGetValue(ball2, out lastBall2!) &&
+                        lastBall1 == ball2 && lastBall2 == ball1) || ball1.Equals(ball2))
+                    {
+                        continue;
+                    }
+
+                    if ( //condition of circles external contact: (r_1 + r_2) <= |AB|
+                        (Math.Abs(Math.Sqrt(
+                             (ball1.XValue - ball2.XValue) * (ball1.XValue - ball2.XValue) +
+                             (ball1.YValue - ball2.YValue) * (ball1.YValue - ball2.YValue)
+                         )) <= radius * 2.0 ||
+                         Math.Sqrt(
+                             (ball1.XValue + ball1.XDirection - ball2.XValue + ball2.XDirection) *
+                             (ball1.XValue + ball1.XDirection - ball2.XValue + ball2.XDirection) +
+                             (ball1.YValue + ball1.YDirection - ball2.YValue + ball2.YDirection) *
+                             (ball1.YValue + ball1.YDirection - ball2.YValue + ball2.YDirection)
+                         ) <= radius * 2.0)
+                       )
+                    {
+                        int ball1StartXSpeed = ball1.XDirection;
+                        int ball1StartYSpeed = ball1.YDirection;
+                        int ball2StartXSpeed = ball2.XDirection;
+                        int ball2StartYSpeed = ball2.YDirection;
+                        ball1.YDirection = ball2StartYSpeed;
+                        ball2.YDirection = ball1StartYSpeed;
+                        ball1.XDirection = ball2StartXSpeed;
+                        ball2.XDirection = ball1StartXSpeed;
+                        if (ball1StartXSpeed * ball2StartXSpeed > 0)
+                        {
+                            ChangeXdirToOpposite(ball1StartXSpeed, ball1, ball2);
+                        }
+
+                        if (ball1StartYSpeed * ball2StartYSpeed > 0)
+                        {
+                            ChangeYdirToOpposite(ball1StartYSpeed, ball1, ball2);
+                        }
+                        ballsLastCollision.Remove(ball1);
+                        ballsLastCollision.Remove(ball2);
+                        ballsLastCollision.Add(ball1, ball2);
+                        ballsLastCollision.Add(ball2, ball1);
+                    }
+                }
             }
         }
+
+        private static void ChangeYdirToOpposite(int ball1StartYSpeed, BallDataAPI ball1, BallDataAPI ball2)
+        {
+            switch (ball1StartYSpeed)
+            {
+                case > 0 when ball1.YValue > ball2.YValue:
+                case < 0 when ball1.YValue < ball2.YValue:
+                    ball2.ChangeYdir();
+                    break;
+                case < 0 when ball1.YValue < ball2.YValue:
+                case > 0 when ball1.YValue > ball2.YValue:
+                    ball1.ChangeYdir();
+                    break;
+            }
+        }
+
+        private static void ChangeXdirToOpposite(int ball1StartXSpeed, BallDataAPI ball1, BallDataAPI ball2)
+        {
+            switch (ball1StartXSpeed)
+            {
+                case > 0 when ball1.XValue > ball2.XValue:
+                case < 0 when ball1.XValue < ball2.XValue:
+                    ball2.ChangeXdir();
+                    break;
+                case < 0 when ball1.XValue < ball2.XValue:
+                case > 0 when ball1.XValue > ball2.XValue:
+                    ball1.ChangeXdir();
+                    break;
+            }
+        }
+
+
 
         public override void makeBalls(int amount)
         {
