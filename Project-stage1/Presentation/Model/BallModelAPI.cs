@@ -5,7 +5,7 @@ namespace Presentation.Model
 {
     public abstract class BallModelAPI
     {
-        public static BallModelAPI CreateCircle(int xPosition, int yPosition, int radius)
+        public static BallModelAPI CreateModelBall(int xPosition, int yPosition, int radius)
         {
             return new BallModel(xPosition, yPosition, radius);
         }
@@ -17,6 +17,6 @@ namespace Presentation.Model
 
         public abstract int Radius { get; set; }
 
-        public abstract void UpdateCircle(Object s, PropertyChangedEventArgs e);
+        public abstract void UpdateModelBalls(Object s, PropertyChangedEventArgs e);
     }
 }

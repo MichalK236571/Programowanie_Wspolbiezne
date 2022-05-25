@@ -46,7 +46,7 @@ namespace Presentation.Model
             Radius = radius;
         }
 
-        public override void UpdateCircle(Object s, PropertyChangedEventArgs e)
+        public override void UpdateModelBalls(Object s, PropertyChangedEventArgs e)
         {
             BallLogicAPI ball = (BallLogicAPI)s;
             if (e.PropertyName == "XValue")
