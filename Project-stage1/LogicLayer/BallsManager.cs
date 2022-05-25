@@ -6,7 +6,7 @@ namespace Logic
     internal class BallsManager : LogicAbstactAPI
     {
 
-        private Board dataApi;
+        //private Board dataApi;
         private int width { get; set; }
         private int height { get; set; }
         private int radius = 15;
@@ -20,11 +20,11 @@ namespace Logic
 
         private List<BallLogicAPI> list = new();
 
-        public BallsManager(BoardAPI boardAPI)// int w, int h)
+        public BallsManager(BoardAPI BoardAPI)// int w, int h)
         {
-            boardAPI = boardAPI;
-            width = boardAPI.Width;
-            height = boardAPI.Height;
+            boardAPI = BoardAPI;
+            width = BoardAPI.Width;
+            height = BoardAPI.Height;
  
 
             

@@ -7,14 +7,13 @@ namespace Logic
     public  class Ball : BallLogicAPI, INotifyPropertyChanged
     {
 
-
-        
         private int radius;
         private int xValue;
         private int yValue;
         private int xDirection;
         private int yDirection;
         private int weight;
+        public override event PropertyChangedEventHandler? PropertyChanged;
 
         public override int Radius
         {
@@ -58,7 +57,7 @@ namespace Logic
             set { weight = value; }
         }
 
-        public override event PropertyChangedEventHandler? PropertyChanged;
+        
             public Ball(int x, int y, int r,int weight, int xDirection, int yDirection)
             {
                 Radius = r;

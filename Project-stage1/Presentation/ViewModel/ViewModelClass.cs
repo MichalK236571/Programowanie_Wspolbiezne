@@ -3,6 +3,7 @@ using Presentation.Model;
 using System;
 using System.Threading.Tasks;
 using Logic;
+using System.Collections.ObjectModel;
 
 namespace Presentation.ViewModel
 {
@@ -24,7 +25,11 @@ namespace Presentation.ViewModel
         public int width { get; }
         public int height { get; }
 
-        public ViewModelClass()
+        public ViewModelClass() : this(MapApi.createMap())
+        {
+        }
+
+        public ViewModelClass(MapApi model)
         {
             width = 1020;
             height = 684;
@@ -33,7 +38,7 @@ namespace Presentation.ViewModel
             clear = new RelayCommand(Clear, GetClearFlag);
             resume = new RelayCommand(Start, GetStartFlag);
             pause = new RelayCommand(Stop, GetStopFlag);
-            mainMap = MapApi.createMap(width, height);
+            mainMap = model;
             CreateFlag = true;
             ClearFlag = false;
             StartFlag = false;
@@ -94,7 +99,8 @@ namespace Presentation.ViewModel
             }
         }
 
-        public BallLogicAPI[]? GetBalls { get => mainMap.GetBalls().ToArray(); }
+        public ObservableCollection<BallModelAPI> Circles => mainMap.GetBalls();
+        //public BallLogicAPI[]? GetBalls { get => mainMap.GetBalls().ToArray(); }
 
         public void Create()
         {
@@ -132,7 +138,7 @@ namespace Presentation.ViewModel
             StopFlag = false;
         }
 
-        public async void Move()
+/*        public async void Move()
         {
             while (StopFlag)
             {
@@ -140,13 +146,13 @@ namespace Presentation.ViewModel
                 mainMap.Move();
                 OnPropertyChanged("GetBalls");
             }
-        }
+        }*/
 
         public void Start()
         {
             StopFlag = true;
             StartFlag = false;
-            Move();
+            //Move();
         }
 
         public void Stop()

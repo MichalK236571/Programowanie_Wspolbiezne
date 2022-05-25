@@ -13,6 +13,20 @@ namespace Data
         private int weight;
         public override event PropertyChangedEventHandler? PropertyChanged;
 
+
+        public BallData(int x, int y, int r, int w, int xDir, int yDir)
+        {
+            radius = r;
+            xValue = x;
+            yValue = y;
+            xDirection = xDir;
+            yDirection = yDir;
+            weight = w;
+            Thread thread = new Thread(Movement);
+            thread.IsBackground = true;
+            thread.Start();
+        }
+
         public override int Radius
         {
             get => radius;
@@ -54,24 +68,13 @@ namespace Data
             set { weight = value; }
         }
 
-        public BallData(int x, int y, int r,int w, int xDir, int yDir)
-        {
-            radius = r;
-            xValue = x;
-            yValue = y;
-            xDirection = xDir;
-            yDirection = yDir;
-            weight = w;
-            Thread thread = new Thread(Movement);
-            thread.IsBackground = true;
-            thread.Start();
-        }
 
         public override void Movement()
         {
             while (true)
             {
                 Move();
+                Thread.Sleep(5);
             }
         }
         public override void Move()

@@ -25,7 +25,7 @@ namespace Data
     {
         public int width;
         public int height;
-
+        private List<BallDataAPI> ballDataList = new();
         public override int Width
         {
             get => width;
@@ -37,7 +37,7 @@ namespace Data
             get => height;
             
         }
-        private List<BallDataAPI> ballDataList = new();
+
 
         public override List<BallDataAPI> getBalls()
         {
