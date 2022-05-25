@@ -77,7 +77,11 @@ namespace Logic
 
         public override void Update(Object obj, PropertyChangedEventArgs e)
         {
-            GetType().GetProperty(e.PropertyName!)!.SetValue(this, obj); //??? - Nie wiem czy tak może być
+            BallDataAPI ball = (BallDataAPI) obj;
+            GetType().GetProperty(e.PropertyName!)!.SetValue(
+                this, ball.GetType().GetProperty(e.PropertyName!)!.GetValue(ball));
+
+            //GetType().GetProperty(e.PropertyName!)!.SetValue(this, obj); //??? - Nie wiem czy tak może być
         }
     }
 }

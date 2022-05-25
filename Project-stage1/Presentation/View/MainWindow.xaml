@@ -15,7 +15,7 @@
         <v:ViewModelClass/>
     </Window.DataContext>
     <Grid>
-        <ItemsControl ItemsSource="{Binding GetBalls}"  Margin="0,0,175,0"  Width="Auto"  Height="Auto" IsTabStop="False">
+        <ItemsControl ItemsSource="{Binding Circles}"  Margin="0,0,175,0"  Width="Auto"  Height="Auto" IsTabStop="False">
             <ItemsControl.ItemsPanel>
                 <ItemsPanelTemplate>
                     <Canvas>
@@ -28,8 +28,8 @@
             </ItemsControl.ItemsPanel>
             <ItemsControl.ItemContainerStyle>
                 <Style TargetType="ContentPresenter">
-                    <Setter Property="Canvas.Left" Value="{Binding XValue}" />
-                    <Setter Property="Canvas.Top" Value="{Binding YValue}" />
+                    <Setter Property="Canvas.Left" Value="{Binding X}" />
+                    <Setter Property="Canvas.Top" Value="{Binding Y}" />
                 </Style>
             </ItemsControl.ItemContainerStyle>
             <ItemsControl.ItemTemplate>

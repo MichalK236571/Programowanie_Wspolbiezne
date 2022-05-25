@@ -10,7 +10,7 @@ namespace Presentation.Model
         {
             return new Map(logicApi ?? LogicAbstactAPI.CreateApi(1020,684));//w, h);
         }
-
+        //public abstract void CreateNBallsInRandomPlaces(int numOfBalls);
         //public abstract void Move();
         //public abstract List<BallLogicAPI> GetBalls();
         public abstract ObservableCollection<BallModelAPI> GetBalls();
@@ -50,11 +50,14 @@ namespace Presentation.Model
                 return ModelBalls;
             }
 
-/*            public override List<BallLogicAPI> GetBalls()
+            /*            public override List<BallLogicAPI> GetBalls()
+                        {
+                            return screen.GetAllBalls();
+                        }*/
+/*            public override void CreateNBallsInRandomPlaces(int numOfBalls)
             {
-                return screen.GetAllBalls();
+                
             }*/
-
             public override void ClearMap()
             {
                 screen.RemoveAllBalls();
@@ -62,7 +65,10 @@ namespace Presentation.Model
 
             public override void CreateBalls(int amount)
             {
-                screen.makeBalls(amount);
+                for (int i = 0; i < amount; i++)
+                {
+                    screen.CreateBallInRandomPlace();
+                }
             }
 
         }

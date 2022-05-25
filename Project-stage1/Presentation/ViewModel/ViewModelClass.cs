@@ -116,7 +116,7 @@ namespace Presentation.ViewModel
                 }
 
                 mainMap.CreateBalls(numberOfBalls);
-                OnPropertyChanged("GetBalls");
+                OnPropertyChanged(nameof(Circles));
                 CreateFlag = false;
                 ClearFlag = true;
                 StartFlag = true;
@@ -131,7 +131,7 @@ namespace Presentation.ViewModel
         {
             NumberOfBalls = "";
             mainMap.ClearMap();
-            OnPropertyChanged("GetBalls");
+            OnPropertyChanged(nameof(Circles));
             CreateFlag = true;
             ClearFlag = false;
             StartFlag = false;

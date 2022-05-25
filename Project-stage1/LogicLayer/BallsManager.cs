@@ -9,6 +9,8 @@ namespace Logic
         //private Board dataApi;
         private int width { get; set; }
         private int height { get; set; }
+        public int MaxBallSpeed = 5;
+
         private int radius = 15;
 /*        private int minRadius { get; }
         private int maxRadius { get; }*/
@@ -55,40 +57,97 @@ namespace Logic
             boardAPI.removeBalls();
         }
 
-        public override void generateBalls()
-        {
-            Random random = new Random();
-            int randomX = 0;
-            int randomY = 0;
-            while (randomX == 0 && randomY == 0)
-            {
-                randomX = random.Next(-6, 6);
-                randomY = random.Next(-6, 6);
-            }
-            //AddBallToList(random.Next(minRadius, maxRadius), random.Next(maxRadius, width - maxRadius), random.Next(maxRadius, height - maxRadius), randomX, randomY);
-            AddBallToList(radius, random.Next(radius, width - radius), random.Next(radius, height - radius),weight, randomX, randomY);
-        }
 
-        public override void AddBallToList(int radius, int x, int y,int weight, int xDirection, int yDirection)
+        public override BallLogicAPI MakeBall(int x, int y, int xDirection, int yDirection)
         {
-             if(x < radius || x > width - radius || y < radius || y > height - radius)
+            if (
+                x < radius || x > width - radius ||
+                y < radius || y > height - radius ||
+                xDirection > height - radius || xDirection < -1 * height + radius ||
+                yDirection > height - radius || yDirection < -1 * height + radius
+            )
             {
-                Console.WriteLine("Blad");
-                throw new Exception();
+                throw new ArgumentException("Coordinate out of board range.");
             }
 
-            if(list.Any(Ball => Math.Abs(x - Ball.XValue) <= radius && Math.Abs(y - Ball.YValue) <= radius))
+            if (list.Any(
+                    ball => Math.Abs(ball.XValue - x) <= radius && Math.Abs(ball.YValue - y) <= radius)
+               )
             {
-                Console.WriteLine("Blad");
-                throw new Exception();
+                throw new ArgumentException("Another ball is already here");
             }
-            BallDataAPI dataBallAPI = boardAPI.createDataBallAPI(x, y, radius, weight, xDirection, yDirection);
-            BallLogicAPI ball = BallLogicAPI.CreateBall( x, y,radius,weight, xDirection, yDirection);
-            dataBallAPI.PropertyChanged += ball.Update!;
-            dataBallAPI.PropertyChanged += CheckIfCollisioned!;
+
+            BallDataAPI ballData = boardAPI.createDataBallAPI(x, y, radius, weight, xDirection, yDirection);
+            BallLogicAPI ball = BallLogicAPI.CreateBall(ballData.XValue, ballData.YValue, ballData.Radius, ballData.Weight,
+                ballData.XDirection, ballData.YDirection);
+            ballData.PropertyChanged += ball.Update!;
+            ballData.PropertyChanged += CheckIfCollisioned!;
             list.Add(ball);
-            
+            return ball;
         }
+
+        public override BallLogicAPI CreateBallInRandomPlace()
+        {
+            Random r = new();
+            bool catched;
+            do
+            {
+                catched = false;
+                try
+                {
+                    return MakeBall(
+                        r.Next(radius, width - radius),
+                        r.Next(radius, height - radius),
+                        r.Next(-MaxBallSpeed, MaxBallSpeed),
+                        r.Next(-MaxBallSpeed, MaxBallSpeed)
+                    );
+                }
+                catch (ArgumentException e)
+                {
+                    if (e.Message == "Another ball is already here")
+                    {
+                        catched = true;
+                    }
+                }
+            } while (catched);
+
+            throw new Exception();
+        }
+
+        /*        public override void generateBalls()
+                {
+                    Random random = new Random();
+                    int randomX = 0;
+                    int randomY = 0;
+                    while (randomX == 0 && randomY == 0)
+                    {
+                        randomX = random.Next(-6, 6);
+                        randomY = random.Next(-6, 6);
+                    }
+                    //AddBallToList(random.Next(minRadius, maxRadius), random.Next(maxRadius, width - maxRadius), random.Next(maxRadius, height - maxRadius), randomX, randomY);
+                    AddBallToList(radius, random.Next(radius, width - radius), random.Next(radius, height - radius),weight, randomX, randomY);
+                }
+
+                public override void AddBallToList(int radius, int x, int y,int weight, int xDirection, int yDirection)
+                {
+                     if(x < radius || x > width - radius || y < radius || y > height - radius)
+                    {
+                        Console.WriteLine("Blad");
+                        throw new Exception();
+                    }
+
+                    if(list.Any(Ball => Math.Abs(x - Ball.XValue) <= radius && Math.Abs(y - Ball.YValue) <= radius))
+                    {
+                        Console.WriteLine("Blad");
+                        throw new Exception();
+                    }
+                    BallDataAPI dataBallAPI = boardAPI.createDataBallAPI(x, y, radius, weight, xDirection, yDirection);
+                    BallLogicAPI ball = BallLogicAPI.CreateBall( x, y,radius,weight, xDirection, yDirection);
+                    dataBallAPI.PropertyChanged += ball.Update!;
+                    dataBallAPI.PropertyChanged += CheckIfCollisioned!;
+                    list.Add(ball);
+
+                }*/
 
         public override void CheckIfCollisioned(Object s, PropertyChangedEventArgs e)
         {
@@ -223,13 +282,13 @@ namespace Logic
 
 
 
-        public override void makeBalls(int amount)
+/*        public override void makeBalls(int amount)
         {
             for (int i = 0; i < amount; i++)
             {
-                generateBalls();
+                CreateBallInRandomPlace();
             }
-        }
+        }*/
 
     }
 }
