@@ -81,7 +81,6 @@ namespace Logic
             GetType().GetProperty(e.PropertyName!)!.SetValue(
                 this, ball.GetType().GetProperty(e.PropertyName!)!.GetValue(ball));
 
-            //GetType().GetProperty(e.PropertyName!)!.SetValue(this, obj); //??? - Nie wiem czy tak może być
         }
     }
 }

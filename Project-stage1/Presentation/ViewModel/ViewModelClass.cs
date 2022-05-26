@@ -12,13 +12,9 @@ namespace Presentation.ViewModel
         private string numberOfBalls;
         public RelayCommand create { get; }
         public RelayCommand clear { get; }
-        public RelayCommand pause { get; }
-        public RelayCommand resume { get; }
 
         public bool createFlag = true;
         public bool clearFlag = false;
-        public bool resumeFlag = false;
-        public bool pauseFlag = false;
 
         public MapApi mainMap { get; }
 
@@ -36,13 +32,9 @@ namespace Presentation.ViewModel
             numberOfBalls = "";
             create = new RelayCommand(Create, GetCreateFlag);
             clear = new RelayCommand(Clear, GetClearFlag);
-            resume = new RelayCommand(Start, GetStartFlag);
-            pause = new RelayCommand(Stop, GetStopFlag);
             mainMap = model;
             CreateFlag = true;
             ClearFlag = false;
-            StartFlag = false;
-            StopFlag = false;
         }
 
         public string NumberOfBalls
@@ -77,36 +69,12 @@ namespace Presentation.ViewModel
             }
         }
 
-        public bool StartFlag
-        {
-            get => resumeFlag;
-
-            set
-            {
-                resumeFlag = value;
-                resume.OnCanExecuteChanged();
-            }
-        }
-
-        public bool StopFlag
-        {
-            get => pauseFlag;
-
-            set
-            {
-                pauseFlag = value;
-                pause.OnCanExecuteChanged();
-            }
-        }
-
         public ObservableCollection<BallModelAPI> Circles => mainMap.GetBalls();
-        //public BallLogicAPI[]? GetBalls { get => mainMap.GetBalls().ToArray(); }
 
         public void Create()
         {
             try
             {
-                
 
                 int numberOfBalls = int.Parse(this.numberOfBalls);
 
@@ -119,7 +87,6 @@ namespace Presentation.ViewModel
                 OnPropertyChanged(nameof(Circles));
                 CreateFlag = false;
                 ClearFlag = true;
-                StartFlag = true;
             }
             catch (Exception)
             {
@@ -134,32 +101,7 @@ namespace Presentation.ViewModel
             OnPropertyChanged(nameof(Circles));
             CreateFlag = true;
             ClearFlag = false;
-            StartFlag = false;
-            StopFlag = false;
             Environment.Exit(0);
-        }
-
-/*        public async void Move()
-        {
-            while (StopFlag)
-            {
-                await Task.Delay(10);
-                mainMap.Move();
-                OnPropertyChanged("GetBalls");
-            }
-        }*/
-
-        public void Start()
-        {
-            StopFlag = true;
-            StartFlag = false;
-            //Move();
-        }
-
-        public void Stop()
-        {
-            StartFlag = true;
-            StopFlag = false;
         }
 
         private bool GetCreateFlag()
@@ -170,16 +112,6 @@ namespace Presentation.ViewModel
         private bool GetClearFlag()
         {
             return ClearFlag;
-        }
-
-        private bool GetStartFlag()
-        {
-            return StartFlag;
-        }
-
-        private bool GetStopFlag()
-        {
-            return StopFlag;
         }
     }
 }

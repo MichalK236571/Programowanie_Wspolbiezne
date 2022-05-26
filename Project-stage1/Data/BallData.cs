@@ -69,7 +69,7 @@ namespace Data
         }
 
 
-        public override void Movement()
+        public  void Movement()
         {
             while (true)
             {
@@ -77,20 +77,10 @@ namespace Data
                 Thread.Sleep(6);
             }
         }
-        public override void Move()
+        public  void Move()
         {
             XValue += XDirection;
             YValue += YDirection;
-        }
-
-        public override void ChangeXdir()
-        {
-            XDirection *= -1;
-        }
-
-        public override void ChangeYdir()
-        {
-            YDirection *= -1;
         }
 
         private void OnPropertyChanged([CallerMemberName] string? name = null)

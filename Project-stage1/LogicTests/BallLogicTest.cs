@@ -6,7 +6,7 @@ using Logic;
 namespace LogicTests
 {
     [TestClass]
-    public class Class1
+    public class BallLogicTest
     {
         [TestMethod]
         public void CreateBall_Test()

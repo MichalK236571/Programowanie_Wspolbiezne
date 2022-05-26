@@ -21,18 +21,17 @@ namespace Data
 
     public  class Board : BoardAPI
     {
-        //public int width;
-        //public int height;
+
         private List<BallDataAPI> ballDataList = new();
         public override int Width
         {
-            get;// => width;
+            get;
             
         }
 
         public override int Height
         {
-            get; //=> height;
+            get; 
             
         }
 
