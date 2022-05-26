@@ -58,10 +58,10 @@
 
         <Button Content="Create Balls" Command="{Binding create}"  Background="#b0e8e6" Height="40" Margin="1045,576,15,68" Width="140" Cursor="Hand"/>
 
-        <Button Content="Clear Map" Command="{Binding clear}" Height="40" Background="#b0e8e6" Margin="1045,621,15,23" Width="140" Cursor="Hand" IsCancel="True"/>
+        <Button Content="Close" Command="{Binding clear}" Height="40" Background="#b0e8e6" Margin="1045,621,15,23" Width="140" Cursor="Hand" IsCancel="True"/>
 
-        <Button Content="Start" Command="{Binding resume}" Height="45" Background="#b0e8e6"  Margin="1045,59,15,580" Width="140" Cursor="Hand"/>
+        <!--<Button Content="Start" Command="{Binding resume}" Height="45" Background="#b0e8e6"  Margin="1045,59,15,580" Width="140" Cursor="Hand"/>
 
-        <Button Content="Stop" Command="{Binding pause}" Height="45" Background="#b0e8e6"  Margin="1045,126,15,513" Width="140" Cursor="Hand"/>
+        <Button Content="Stop" Command="{Binding pause}" Height="45" Background="#b0e8e6"  Margin="1045,126,15,513" Width="140" Cursor="Hand"/>-->
     </Grid>
 </Window>

@@ -26,9 +26,9 @@ namespace Logic
             boardAPI = BoardAPI;
             width = BoardAPI.Width;
             height = BoardAPI.Height;
-            radius = 15;
+            radius = 15;// Math.Min(height, width) / 50;
 
-            
+
             /*minRadius = Math.Min(w, h) / 60;
             maxRadius = Math.Max(w, h) / 20;*/
 

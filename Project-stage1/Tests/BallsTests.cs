@@ -1,4 +1,4 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿/*using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Logic;
 using Data;
 using System;
@@ -63,4 +63,4 @@ namespace Logic.Tests
         }
 
     }
-}
+}*/

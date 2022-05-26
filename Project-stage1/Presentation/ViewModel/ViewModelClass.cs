@@ -136,6 +136,7 @@ namespace Presentation.ViewModel
             ClearFlag = false;
             StartFlag = false;
             StopFlag = false;
+            Environment.Exit(0);
         }
 
 /*        public async void Move()
