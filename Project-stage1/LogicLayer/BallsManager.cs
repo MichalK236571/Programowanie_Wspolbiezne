@@ -204,6 +204,10 @@ namespace Logic
             {
                 foreach (BallDataAPI ball2 in boardAPI.getBalls().ToArray())
                 {
+                    if(ball2 == null) 
+                    {
+                        continue;
+                    }
                     BallDataAPI lastBall1, lastBall2;
                     if ((ballsLastCollision.TryGetValue(ball1, out lastBall1!) &&
                         ballsLastCollision.TryGetValue(ball2, out lastBall2!) &&
