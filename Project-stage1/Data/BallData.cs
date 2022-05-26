@@ -5,12 +5,12 @@ namespace Data
     internal class BallData : BallDataAPI, INotifyPropertyChanged
     {
 
-        private int radius;
         private int xValue;
         private int yValue;
         private int xDirection;
         private int yDirection;
         private int weight;
+        private int radius;
         public override event PropertyChangedEventHandler? PropertyChanged;
 
 
@@ -74,7 +74,7 @@ namespace Data
             while (true)
             {
                 Move();
-                Thread.Sleep(5);
+                Thread.Sleep(6);
             }
         }
         public override void Move()

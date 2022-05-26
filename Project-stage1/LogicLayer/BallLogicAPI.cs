@@ -10,7 +10,7 @@ namespace Logic
 {
     public abstract class BallLogicAPI
     {
-        public static BallLogicAPI CreateBall(int xV, int yV, int radius, int weight, int xDir, int yDir)
+        public static BallLogicAPI CreateBall(int xV, int yV, int radius, int weight, int xDir=0, int yDir=0)
         {
             return new Ball(xV, yV, radius, weight, xDir, yDir);
         }

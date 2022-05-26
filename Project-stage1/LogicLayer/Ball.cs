@@ -58,7 +58,7 @@ namespace Logic
         }
 
         
-            public Ball(int x, int y, int r,int weight, int xDirection, int yDirection)
+            public Ball(int x, int y, int r,int weight, int xDirection=0, int yDirection=0)
             {
                 Radius = r;
                 XValue = x;

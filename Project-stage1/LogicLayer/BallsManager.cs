@@ -7,27 +7,26 @@ namespace Logic
     {
 
         //private Board dataApi;
-        private int width { get; set; }
-        private int height { get; set; }
+        private int width; //{ get; set; }
+        private int height; //{ get; set; }
+        private int radius;
         public int MaxBallSpeed = 5;
-
-        private int radius = 15;
-/*        private int minRadius { get; }
-        private int maxRadius { get; }*/
-        private int weight = 100;
-        private Dictionary<BallDataAPI, BallDataAPI> ballsLastCollision = new();
         private BoardAPI boardAPI;
-        private readonly object syncObject = new();
-
 
         private List<BallLogicAPI> list = new();
+        /*        private int minRadius { get; }
+                private int maxRadius { get; }*/
+        private int weight = 100;
+        private Dictionary<BallDataAPI, BallDataAPI> ballsLastCollision = new();
+        
+        private readonly object syncObject = new();
 
         public BallsManager(BoardAPI BoardAPI)// int w, int h)
         {
             boardAPI = BoardAPI;
             width = BoardAPI.Width;
             height = BoardAPI.Height;
- 
+            radius = 15;
 
             
             /*minRadius = Math.Min(w, h) / 60;
@@ -37,14 +36,14 @@ namespace Logic
         }
 
 
-        public override BallLogicAPI GetBall(int index)
+/*        public override BallLogicAPI GetBall(int index)
         {
             return list[index];
-        }
-        public void AddBall(BallLogicAPI obj)
+        }*/
+/*        public void AddBall(BallLogicAPI obj)
         {
             list.Add(obj);
-        }
+        }*/
 
         public override List<BallLogicAPI> GetAllBalls()
         {
@@ -161,6 +160,8 @@ namespace Logic
 
         private void WallReflection(BallDataAPI ball)
         {
+            
+
             if (ball.XValue + ball.XDirection >= width - radius ||
                ball.XValue + ball.XDirection <= radius)
             {
@@ -224,6 +225,7 @@ namespace Logic
                          ) <= radius * 2.0)
                        )
                     {
+                       
                         int ball1StartXSpeed = ball1.XDirection;
                         int ball1StartYSpeed = ball1.YDirection;
                         int ball2StartXSpeed = ball2.XDirection;
