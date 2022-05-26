@@ -17,9 +17,5 @@ namespace Data
         public abstract int Radius { get; set; }
         public abstract int Weight { get; set; }
 
-     /*   public abstract void Move();
-        public abstract void Movement();*/
-
-
     }
 }
