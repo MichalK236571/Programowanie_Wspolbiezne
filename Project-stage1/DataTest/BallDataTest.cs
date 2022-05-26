@@ -4,7 +4,7 @@ using Data;
 namespace DataTest
 {
     [TestClass]
-    public class Class1
+    public class BallDataTest
     {
         [TestMethod]
         public void Getter_Setter_Test()
