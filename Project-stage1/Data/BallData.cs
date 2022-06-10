@@ -121,7 +121,7 @@ namespace Data
 
 
         private void OnLoggerPropertyChanged(
-            object oldValue, object newValue,
+            double oldValue, double newValue,
             [CallerMemberName] string? propertyName = null
         )
         {
