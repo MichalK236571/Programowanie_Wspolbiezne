@@ -1,5 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using System.Diagnostics;
+
 namespace Data
 {
     internal class BallData : BallDataAPI, INotifyPropertyChanged
@@ -11,9 +13,11 @@ namespace Data
         private int yDirection;
         private int weight;
         private int radius;
+        private bool moving = true;
+        private Thread mov;
         public override event PropertyChangedEventHandler? PropertyChanged;
-
-
+        internal override event PropertyChangedEventHandler? LoggerPropertyChanged;
+        private const int FluentMoveTime = 8;
         public BallData(int x, int y, int r, int w, int xDir, int yDir)
         {
             radius = r;
@@ -22,9 +26,12 @@ namespace Data
             xDirection = xDir;
             yDirection = yDir;
             weight = w;
-            Thread thread = new Thread(Movement);
+            mov = new(Movement) { IsBackground = true };
+
+
+  /*          Thread thread = new Thread(Movement);
             thread.IsBackground = true;
-            thread.Start();
+            thread.Start();*/
         }
 
         public override int Radius
@@ -36,20 +43,20 @@ namespace Data
         public override int XValue
         {
             get => xValue;
-           internal set { xValue = value; OnPropertyChanged(); }
+           internal set { OnLoggerPropertyChanged(xValue, value); xValue = value; }
         }
 
         public override int YValue
         {
             get => yValue;
-            internal set { yValue = value; OnPropertyChanged(); }
+            internal set { OnLoggerPropertyChanged(yValue, value); yValue = value; }
         }
 
         public override int XDirection
         {
             get => xDirection;
-            set { xDirection = value;
-                OnPropertyChanged();
+            set {xDirection = value;
+                OnLoggerPropertyChanged(xDirection, value); 
             }
         }
 
@@ -58,7 +65,7 @@ namespace Data
             get => yDirection;
             set {
                 yDirection = value;
-                OnPropertyChanged();
+                OnLoggerPropertyChanged(yDirection, value);
             }
         }
 
@@ -67,17 +74,41 @@ namespace Data
             get => weight;
             //set { weight = value; }
         }
-
-
+        internal override void StartBall()
+        {
+            mov.Start();
+        }
+        internal override void Stop()
+        {
+            moving = false;
+        }
         public  void Movement()
         {
-            while (true)
+            Stopwatch stopwatch = new();
+            while (moving)
             {
-                Move();
-                Thread.Sleep(6);
+                stopwatch.Start();
+
+                lock (this)
+                {
+                    XValue += XDirection;
+                    YValue += YDirection;
+                }
+                OnPropertyChanged();
+
+                stopwatch.Stop();
+
+                if ((int)stopwatch.ElapsedMilliseconds < FluentMoveTime)
+                {
+                    Thread.Sleep(FluentMoveTime - (int)stopwatch.ElapsedMilliseconds);
+                }
+
+                stopwatch.Reset();
+                //Move();
+                //Thread.Sleep(6);
             }
         }
-        public  void Move()
+        public void Move()
         {
             XValue += XDirection;
             YValue += YDirection;
@@ -85,11 +116,19 @@ namespace Data
 
         private void OnPropertyChanged([CallerMemberName] string? name = null)
         {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
+            PropertyChanged?.Invoke(this, new BallDataArgs(name, XValue, YValue));
         }
 
 
-
+        private void OnLoggerPropertyChanged(
+            object oldValue, object newValue,
+            [CallerMemberName] string? propertyName = null
+        )
+        {
+            Thread thread = new(
+                () => LoggerPropertyChanged?.Invoke(this,new LoggerArgs(propertyName, oldValue, newValue)));
+            thread.Start();
+        }
 
 
     }

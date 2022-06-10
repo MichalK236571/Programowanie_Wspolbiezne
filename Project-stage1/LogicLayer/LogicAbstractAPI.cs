@@ -15,7 +15,7 @@ namespace Logic
         public abstract void RemoveAllBalls();
         public abstract BallLogicAPI MakeBall(int x, int y, int xDirection, int yDirection);
         public abstract BallLogicAPI CreateBallInRandomPlace();
-        public abstract void CheckIfCollisioned(Object s, PropertyChangedEventArgs e);
+        //public abstract void CheckIfCollisioned(Object s, PropertyChangedEventArgs e);
 
     }
 }

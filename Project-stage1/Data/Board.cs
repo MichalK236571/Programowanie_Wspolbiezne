@@ -23,16 +23,26 @@ namespace Data
     {
 
         private List<BallDataAPI> ballDataList = new();
+        private Logger logger;
+
+        public Board(int w, int h)
+        {
+            Width = w;
+            Height = h;
+            logger = new Logger();
+        }
+
+
         public override int Width
         {
             get;
-            
+   
         }
 
         public override int Height
         {
             get; 
-            
+
         }
 
 
@@ -43,19 +53,20 @@ namespace Data
 
         public override void removeBalls()
         {
+            ballDataList.ForEach(ball => ball.Stop());
             ballDataList.Clear();
+            logger.EndLogging();
         }
 
-        public Board(int w,int h)
-        {
-            Width = w;
-            Height = h;
-        }
+
 
         public override BallDataAPI createDataBallAPI(int xV, int yV, int radius, int weight, int xDir=0, int yDir=0)
         {
             BallDataAPI ballDataAPI =  BallDataAPI.CreateBallDataAPI(xV,yV,radius,weight,xDir,yDir);
+            logger.LogCreate(ballDataAPI);
+            ballDataAPI.LoggerPropertyChanged += logger.LogChange;
             ballDataList.Add(ballDataAPI);
+            ballDataAPI.StartBall();
             return ballDataAPI;
         }
 

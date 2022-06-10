@@ -3,7 +3,7 @@ using Data;
 
 namespace DataTest
 {
-    [TestClass]
+    /*[TestClass]
     public class BallDataTest
     {
         [TestMethod]
@@ -21,5 +21,5 @@ namespace DataTest
             Assert.AreEqual(15, ballDataAPI.YValue);
         }
 
-    }
+    }*/
 }

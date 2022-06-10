@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace Data.Logger;
+namespace Data;
 
 internal class LoggerArgs : PropertyChangedEventArgs
 {

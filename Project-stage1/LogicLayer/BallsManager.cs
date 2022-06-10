@@ -60,8 +60,8 @@ namespace Logic
             }
 
             BallDataAPI ballData = boardAPI.createDataBallAPI(x, y, radius, weight, xDirection, yDirection);
-            BallLogicAPI ball = BallLogicAPI.CreateBall(ballData.XValue, ballData.YValue, ballData.Radius, ballData.Weight,
-                ballData.XDirection, ballData.YDirection);
+            BallLogicAPI ball = BallLogicAPI.CreateBall(ballData.XValue, ballData.YValue, ballData.Radius/*, ballData.Weight,
+                ballData.XDirection, ballData.YDirection*/);
             ballData.PropertyChanged += ball.Update!;
             ballData.PropertyChanged += CheckIfCollisioned!;
             list.Add(ball);
@@ -96,34 +96,34 @@ namespace Logic
             throw new Exception();
         }
 
-        public override void CheckIfCollisioned(Object s, PropertyChangedEventArgs e)
+        public void CheckIfCollisioned(Object s, PropertyChangedEventArgs e)
         {
             BallDataAPI ball = (BallDataAPI)s;
+            BallDataArgsAPI args = (BallDataArgsAPI)e;
+            //if (e.PropertyName is not ("XValue" or "YValue")) return;
 
-            if (e.PropertyName is not ("XValue" or "YValue")) return;
-
-            BallReflection(ball);
-            WallReflection(ball);
+            BallReflection(ball, args.X, args.Y);
+            WallReflection(ball, args.X, args.Y);
         }
 
-        private void WallReflection(BallDataAPI ball)
+        private void WallReflection(BallDataAPI ball, int x, int y)
         {
            
-            if (ball.XValue + ball.XDirection >= width - radius ||
-               ball.XValue + ball.XDirection <= radius)
+            if (x + ball.XDirection >= width - radius ||
+               x + ball.XDirection <= radius)
             {
                 ballsLastCollision.Remove(ball);
                 ball.XDirection *= -1;
             }
 
-            if (ball.YValue + ball.YDirection >= height - radius ||
-                ball.YValue + ball.YDirection <= radius)
+            if (y + ball.YDirection >= height - radius ||
+                y + ball.YDirection <= radius)
             {
                 ballsLastCollision.Remove(ball);            
                 ball.YDirection *= -1;
             }
         }
-        private void BallReflection(BallDataAPI ball1)
+        private void BallReflection(BallDataAPI ball1, int x, int y)
         {
             lock (syncObject)
             {
@@ -141,17 +141,27 @@ namespace Logic
                     {
                         continue;
                     }
+                    int ball1XValue = x;
+                    int ball1YValue = y;
+                    int ball2XValue;
+                    int ball2YValue;
+
+                    lock (ball2)
+                    {
+                        ball2XValue = ball2.XValue;
+                        ball2YValue = ball2.YValue;
+                    }
 
                     if (
                         (Math.Abs(Math.Sqrt(
-                             (ball1.XValue - ball2.XValue) * (ball1.XValue - ball2.XValue) +
-                             (ball1.YValue - ball2.YValue) * (ball1.YValue - ball2.YValue)
+                             (ball1XValue - ball2XValue) * (ball1XValue - ball2XValue) +
+                             (ball1YValue - ball2YValue) * (ball1YValue - ball2YValue)
                          )) <= radius * 2.0 ||
                          Math.Sqrt(
-                             (ball1.XValue + ball1.XDirection - ball2.XValue + ball2.XDirection) *
-                             (ball1.XValue + ball1.XDirection - ball2.XValue + ball2.XDirection) +
-                             (ball1.YValue + ball1.YDirection - ball2.YValue + ball2.YDirection) *
-                             (ball1.YValue + ball1.YDirection - ball2.YValue + ball2.YDirection)
+                             (ball1XValue + ball1.XDirection - ball2XValue + ball2.XDirection) *
+                             (ball1XValue + ball1.XDirection - ball2XValue + ball2.XDirection) +
+                             (ball1YValue + ball1.YDirection - ball2YValue + ball2.YDirection) *
+                             (ball1YValue + ball1.YDirection - ball2YValue + ball2.YDirection)
                          ) <= radius * 2.0)
                        )
                     {

@@ -3,7 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace DataTest
 {
-    [TestClass]
+    /*[TestClass]
     public class BoardTest
     {
         [TestMethod]
@@ -24,5 +24,5 @@ namespace DataTest
             boardAPI.removeBalls();
             Assert.AreEqual(0, boardAPI.getBalls().Count);
         }
-    }
+    }*/
 }
