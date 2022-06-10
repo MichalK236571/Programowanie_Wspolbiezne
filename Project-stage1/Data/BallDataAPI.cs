@@ -10,12 +10,12 @@ namespace Data
             return new BallData(xV, yV, radius,weight, xDir, yDir);
         }
         public abstract event PropertyChangedEventHandler? PropertyChanged;
-        public abstract int XValue { get; set; }
-        public abstract int YValue { get; set; }
+        public abstract int XValue { get; internal set; }
+        public abstract int YValue { get; internal set; }
         public abstract int XDirection { get; set; }
         public abstract int YDirection { get; set; }
-        public abstract int Radius { get; set; }
-        public abstract int Weight { get; set; }
+        public abstract int Radius { get; }
+        public abstract int Weight { get;}
 
     }
 }

@@ -30,19 +30,19 @@ namespace Data
         public override int Radius
         {
             get => radius;
-            set { radius = value; }
+            //set { radius = value; }
         }
 
         public override int XValue
         {
             get => xValue;
-            set { xValue = value; OnPropertyChanged(); }
+           internal set { xValue = value; OnPropertyChanged(); }
         }
 
         public override int YValue
         {
             get => yValue;
-            set { yValue = value; OnPropertyChanged(); }
+            internal set { yValue = value; OnPropertyChanged(); }
         }
 
         public override int XDirection
@@ -65,7 +65,7 @@ namespace Data
         public override int Weight
         {
             get => weight;
-            set { weight = value; }
+            //set { weight = value; }
         }
 
 
