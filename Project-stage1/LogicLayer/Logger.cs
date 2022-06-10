@@ -1,86 +1,129 @@
 ﻿using System.ComponentModel;
-using System.Runtime.CompilerServices;
-using Data;
+using System.Globalization;
+using System.Reflection;
+using System.Text;
 
-namespace Logic
+namespace Data.Logger;
+
+internal class Logger
 {
-    public  class Ball : BallLogicAPI, INotifyPropertyChanged
+
+    private const string StartPart = "{\n" +
+                                     "\t\"logs\": [";
+
+    private const string EndPart = "\t]\n" +
+                                   "}";
+
+    private const string ChangeLogPattern = "\t\t{{\n" +
+                                            "\t\t\t\"time_stamp\": \"{0}\",\n" +
+                                            "\t\t\t\"object_type\": \"{1}\",\n" +
+                                            "\t\t\t\"object_id\": {2},\n" +
+                                            "\t\t\t\"changed_property\": \"{3}\",\n" +
+                                            "\t\t\t\"old_value\": {4},\n" +
+                                            "\t\t\t\"new_value\": {5}\n" +
+                                            "\t\t}},";
+
+    private const string LogLinePattern = "\t\t\t\"{0}\": \"{1}\",\n";
+
+    private const string CreateLogPattern = "\t\t{{\n" +
+                                            "\t\t\t\"time_stamp\": \"{0}\",\n" +
+                                            "\t\t\t\"object_type\": \"{1}\",\n" +
+                                            "\t\t\t\"object_id\": {2},\n" +
+                                            "{3}" +
+                                            "\t\t}},";
+
+    private const string EventLogPattern = "\t\t{{\n" +
+                                           "\t\t\t\"time_stamp\": \"{0}\",\n" +
+                                           "\t\t\t\"event\": \"{1}\"\n\t\t" +
+                                           "}},";
+
+    private const string CompletedLogPattern = "\t\t{{\n" +
+                                               "\t\t\t\"time_stamp\": \"{0}\",\n" +
+                                               "\t\t\t\"event\": \"Completed\"\n\t\t" +
+                                               "}}";
+
+    private static readonly TimeSpan TimeSpan = new(0, 0, 1, 0);
+
+    private const string FileLocationPattern = "../../../../logs_{0}.json";
+
+    private readonly string _fileName;
+    private object _fileLock = new();
+
+    public Logger()
     {
+        _fileName = string.Format(FileLocationPattern, DateTime.Now.ToFileTime());
 
-        private int radius;
-        private int xValue;
-        private int yValue;
-        private int xDirection;
-        private int yDirection;
-        private int weight;
-        public override event PropertyChangedEventHandler? PropertyChanged;
+        using StreamWriter writer = File.AppendText(_fileName);
+        writer.WriteLineAsync(StartPart);
+        writer.Close();
 
-        public override int Radius
+        LogEvent("Launched");
+    }
+
+    public void EndLogging()
+    {
+        if (!Monitor.TryEnter(_fileLock, TimeSpan)) return;
+        Log(string.Format(CompletedLogPattern, GetTimestamp()));
+        using StreamWriter writer = File.AppendText(_fileName);
+        writer.WriteLineAsync(EndPart);
+        writer.Close();
+    }
+
+    public void LogEvent(string name)
+    {
+        Log(string.Format(EventLogPattern, GetTimestamp(), name));
+    }
+
+    public void LogChange(object? s, PropertyChangedEventArgs propertyChangedEventArgs)
+    {
+        LoggerArgs? e = propertyChangedEventArgs as LoggerArgs;
+        Log(
+            string.Format(
+                ChangeLogPattern,
+                GetTimestamp(),
+                s?.GetType().Name,
+                s?.GetHashCode(),
+                e?.PropertyName,
+                e?.OldValue, e?.NewValue
+            )
+        );
+    }
+
+    public void LogCreate(object o)
+    {
+        StringBuilder sb = new();
+        foreach (PropertyInfo propertyInfo in o.GetType().GetProperties())
         {
-            get => radius;
-            set { radius = value; }
+                sb.AppendFormat(LogLinePattern,
+                propertyInfo.Name,
+                o.GetType().GetProperty(propertyInfo.Name)!.GetValue(o));
         }
 
-        public override int XValue
+        Log(
+            string.Format(
+                CreateLogPattern, 
+                GetTimestamp(), 
+                o.GetType().Name, 
+                o.GetHashCode(), 
+                sb.Remove(sb.Length - 2, 1)
+            )
+        );
+    }
+
+    private string GetTimestamp()
+    {
+        return DateTime.Now.ToString(CultureInfo.CurrentCulture) + ":" + DateTime.Now.Millisecond;
+    }
+
+    private void Log(string text)
+    {
+        lock (_fileLock)
         {
-            get => xValue;
-            set { xValue = value; OnPropertyChanged(); }
-        }
-
-        public override int YValue
-        {
-            get => yValue;
-            set { yValue = value; OnPropertyChanged(); }
-        }
-
-        public override int XDirection
-        {
-            get => xDirection;
-            set
-            {
-                xDirection = value;
-            }
-        }
-
-        public override int YDirection
-        {
-            get => yDirection;
-            set
-            {
-                yDirection = value;
-            }
-        }
-
-        public override int Weight
-        {
-            get => weight;
-            set { weight = value; }
-        }
-
-        
-            public Ball(int x, int y, int r,int weight, int xDirection=0, int yDirection=0)
-            {
-                Radius = r;
-                XValue = x;
-                YValue = y;
-                Weight = weight;
-                XDirection = xDirection;
-                YDirection = yDirection;
-            }
-
-       
-
-        private void OnPropertyChanged([CallerMemberName] string? name = null)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
-        }
-
-        public override void Update(Object obj, PropertyChangedEventArgs e)
-        {
-            BallDataAPI ball = (BallDataAPI) obj;
-            GetType().GetProperty(e.PropertyName!)!.SetValue(
-                this, ball.GetType().GetProperty(e.PropertyName!)!.GetValue(ball));
-
+            using StreamWriter writer = File.AppendText(_fileName);
+            writer.WriteLineAsync(text);
+            writer.Close();
         }
     }
+
+
 }

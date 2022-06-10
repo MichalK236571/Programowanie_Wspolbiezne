@@ -14,6 +14,7 @@ namespace Logic
         private int yDirection;
         private int weight;
         public override event PropertyChangedEventHandler? PropertyChanged;
+        //internal override event PropertyChangedEventHandler? LoggerPropertyChanged;
 
         public override int Radius
         {
