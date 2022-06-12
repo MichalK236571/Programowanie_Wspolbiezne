@@ -58,9 +58,10 @@ namespace Presentation.Model
                 Y = ball.YValue;
             }*/
 
-            BallArgsAPI args = (BallArgsAPI)e;
-            X = args.X;
-            Y = args.Y;
+            //BallArgsAPI args = (BallArgsAPI)e;
+            BallLogicAPI ball = (BallLogicAPI)s;
+            X = ball.XValue;
+            Y = ball.YValue;
         }
 
         private void RaisePropertyChanged([CallerMemberName] string? propertyName = null)

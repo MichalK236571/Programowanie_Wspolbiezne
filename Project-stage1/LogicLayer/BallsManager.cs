@@ -99,11 +99,11 @@ namespace Logic
         public void CheckIfCollisioned(Object s, PropertyChangedEventArgs e)
         {
             BallDataAPI ball = (BallDataAPI)s;
-            BallDataArgsAPI args = (BallDataArgsAPI)e;
+            //BallDataArgsAPI args = (BallDataArgsAPI)e;
             //if (e.PropertyName is not ("XValue" or "YValue")) return;
 
-            BallReflection(ball, args.X, args.Y);
-            WallReflection(ball, args.X, args.Y);
+            BallReflection(ball, ball.XValue, ball.YValue);
+            WallReflection(ball, ball.XValue, ball.YValue);
         }
 
         private void WallReflection(BallDataAPI ball, int x, int y)

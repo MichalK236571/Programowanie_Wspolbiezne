@@ -6,7 +6,8 @@ namespace Data
 {
     internal class BallData : BallDataAPI, INotifyPropertyChanged
     {
-
+        private readonly Object lockMovement = new();
+        private readonly Object lockLog = new();
         private int xValue;
         private int yValue;
         private int xDirection;
@@ -15,8 +16,9 @@ namespace Data
         private int radius;
         private bool moving = true;
         private Thread mov;
+        private Thread log;
         public override event PropertyChangedEventHandler? PropertyChanged;
-        internal override event PropertyChangedEventHandler? LoggerPropertyChanged;
+        //internal override event PropertyChangedEventHandler? LoggerPropertyChanged;
         private const int FluentMoveTime = 8;
         public BallData(int x, int y, int r, int w, int xDir, int yDir)
         {
@@ -27,11 +29,19 @@ namespace Data
             yDirection = yDir;
             weight = w;
             mov = new(Movement) { IsBackground = true };
+            Thread thread = new Thread(() =>
+            {
+                lock (lockLog)
+                {
+                    this.PropertyChanged += Update;
+                }
+            });
+            thread.Start();
 
 
-  /*          Thread thread = new Thread(Movement);
-            thread.IsBackground = true;
-            thread.Start();*/
+            /*          Thread thread = new Thread(Movement);
+                      thread.IsBackground = true;
+                      thread.Start();*/
         }
 
         public override int Radius
@@ -90,7 +100,7 @@ namespace Data
             {
                 stopwatch.Start();
 
-                lock (this)
+                lock (lockMovement)
                 {
                     XValue += XDirection;
                     YValue += YDirection;
@@ -117,26 +127,16 @@ namespace Data
 
         private void OnPropertyChanged([CallerMemberName] string? name = null)
         {
-            PropertyChanged?.Invoke(this, new BallDataArgs(name, XValue, YValue));
+            //PropertyChanged?.Invoke(this, new BallDataArgs(name, XValue, YValue));
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
+
+
         }
 
         public void Update(Object s, PropertyChangedEventArgs e)
         {
-            Logger.Instancce().zapiszLoga(new LoggerArgs(XValue,YValue,xDirection,yDirection,this.GetHashCode()));
+            Logger.Instance().zapiszLoga(new LoggerArgs(XValue,YValue,xDirection,yDirection,this.GetHashCode()));
 
         }
-
-
-        /*private void OnLoggerPropertyChanged(
-            double oldValue, double newValue,
-            [CallerMemberName] string? propertyName = null
-        )
-        {
-            *//*Thread thread = new(
-                () => LoggerPropertyChanged?.Invoke(this,new LoggerArgs(propertyName, oldValue, newValue)));
-            thread.Start();*//*
-        }*/
-
-
     }
 }

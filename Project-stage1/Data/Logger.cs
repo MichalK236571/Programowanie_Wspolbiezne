@@ -62,7 +62,7 @@ internal class Logger
         //LogEvent("Launched");
     }
 
-    public static Logger Instancce()
+    public static Logger Instance()
     {
         if(instancja == null)
         {
@@ -139,9 +139,13 @@ internal class Logger
 
     public void zapiszLoga(LoggerArgs o)
     {
-        using StreamWriter writer = File.AppendText(_fileName);
-        writer.WriteLineAsync(o.informacje());
-        writer.Close();
+        lock (_fileLock)
+        {
+            using StreamWriter writer = File.AppendText(_fileName);
+            writer.WriteLineAsync(o.informacje());
+            writer.Close();
+        }
+        
 
     }
 

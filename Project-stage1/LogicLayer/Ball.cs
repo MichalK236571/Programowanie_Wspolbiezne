@@ -60,15 +60,16 @@ namespace Logic
         private void OnPropertyChanged([CallerMemberName] string? name = null)
         {
             //PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
-            PropertyChanged?.Invoke(this, new BallArgs(name, XValue, YValue));
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
 
         }
 
         public override void Update(Object obj, PropertyChangedEventArgs e)
         {
-            BallDataArgsAPI args = (BallDataArgsAPI)e;
-            XValue = args.X;
-            YValue = args.Y;
+            //BallDataArgsAPI args = (BallDataArgsAPI)e;
+            BallDataAPI ball = (BallDataAPI)obj;
+            XValue = ball.XValue;
+            YValue = ball.YValue;
             OnPropertyChanged();
            /* BallDataAPI ball = (BallDataAPI) obj;
             GetType().GetProperty(e.PropertyName!)!.SetValue(
