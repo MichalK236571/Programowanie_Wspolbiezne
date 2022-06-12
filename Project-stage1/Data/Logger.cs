@@ -14,7 +14,7 @@ internal class Logger
     private const string EndPart = "\t]\n" +
                                    "}";
 
-    private const string ChangeLogPattern = "\t\t{{\n" +
+    /*private const string ChangeLogPattern = "\t\t{{\n" +
                                             "\t\t\t\"time_stamp\": \"{0}\",\n" +
                                             "\t\t\t\"object_type\": \"{1}\",\n" +
                                             "\t\t\t\"object_id\": {2},\n" +
@@ -40,14 +40,16 @@ internal class Logger
     private const string CompletedLogPattern = "\t\t{{\n" +
                                                "\t\t\t\"time_stamp\": \"{0}\",\n" +
                                                "\t\t\t\"event\": \"Completed\"\n\t\t" +
-                                               "}}";
+                                               "}}";*/
 
-    private static readonly TimeSpan TimeSpan = new(0, 0, 1, 0);
+    //private static readonly TimeSpan TimeSpan = new(0, 0, 1, 0);
 
     private const string FileLocationPattern = "../../../../logs_{0}.json";
 
     private readonly string _fileName;
     private object _fileLock = new();
+
+    private static Logger instancja;
 
     public Logger()
     {
@@ -57,24 +59,34 @@ internal class Logger
         writer.WriteLineAsync(StartPart);
         writer.Close();
 
-        LogEvent("Launched");
+        //LogEvent("Launched");
+    }
+
+    public static Logger Instancce()
+    {
+        if(instancja == null)
+        {
+            instancja = new Logger();
+        }
+        return instancja;
+
     }
 
     public void EndLogging()
     {
-        if (!Monitor.TryEnter(_fileLock, TimeSpan)) return;
-        Log(string.Format(CompletedLogPattern, GetTimestamp()));
+        //if (!Monitor.TryEnter(_fileLock, TimeSpan)) return;
+        //Log(string.Format(CompletedLogPattern, GetTimestamp()));
         using StreamWriter writer = File.AppendText(_fileName);
         writer.WriteLineAsync(EndPart);
         writer.Close();
     }
 
-    public void LogEvent(string name)
+    /*public void LogEvent(string name)
     {
         Log(string.Format(EventLogPattern, GetTimestamp(), name));
-    }
+    }*/
 
-    public void LogChange(object? s, PropertyChangedEventArgs propertyChangedEventArgs)
+/*    public void LogChange(object? s, PropertyChangedEventArgs propertyChangedEventArgs)
     {
         LoggerArgs? e = propertyChangedEventArgs as LoggerArgs;
         Log(
@@ -87,9 +99,9 @@ internal class Logger
                 e?.OldValue, e?.NewValue
             )
         );
-    }
+    }*/
 
-    public void LogCreate(object o)
+    /*public void LogCreate(object o)
     {
         StringBuilder sb = new();
         foreach (PropertyInfo propertyInfo in o.GetType().GetProperties())
@@ -108,14 +120,14 @@ internal class Logger
                 sb.Remove(sb.Length - 2, 1)
             )
         );
-    }
+    }*/
 
-    private string GetTimestamp()
+    /*private string GetTimestamp()
     {
         return DateTime.Now.ToString(CultureInfo.CurrentCulture) + ":" + DateTime.Now.Millisecond;
-    }
+    }*/
 
-    private void Log(string text)
+    /*private void Log(string text)
     {
         lock (_fileLock)
         {
@@ -123,6 +135,14 @@ internal class Logger
             writer.WriteLineAsync(text);
             writer.Close();
         }
+    }*/
+
+    public void zapiszLoga(LoggerArgs o)
+    {
+        using StreamWriter writer = File.AppendText(_fileName);
+        writer.WriteLineAsync(o.informacje());
+        writer.Close();
+
     }
 
 

@@ -63,8 +63,8 @@ namespace Data
         public override BallDataAPI createDataBallAPI(int xV, int yV, int radius, int weight, int xDir=0, int yDir=0)
         {
             BallDataAPI ballDataAPI =  BallDataAPI.CreateBallDataAPI(xV,yV,radius,weight,xDir,yDir);
-            logger.LogCreate(ballDataAPI);
-            ballDataAPI.LoggerPropertyChanged += logger.LogChange;
+            //logger.LogCreate(ballDataAPI);
+            //ballDataAPI.LoggerPropertyChanged += logger.LogChange;
             ballDataList.Add(ballDataAPI);
             ballDataAPI.StartBall();
             return ballDataAPI;

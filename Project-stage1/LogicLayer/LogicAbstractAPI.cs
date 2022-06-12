@@ -1,6 +1,7 @@
 ﻿using Data;
 using System.ComponentModel;
 
+
 namespace Logic
 {
     public abstract class LogicAbstactAPI

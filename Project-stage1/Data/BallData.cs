@@ -43,20 +43,21 @@ namespace Data
         public override int XValue
         {
             get => xValue;
-           internal set { OnLoggerPropertyChanged(xValue, value); xValue = value; }
+           internal set { //OnLoggerPropertyChanged(xValue, value);
+                          xValue = value; }
         }
 
         public override int YValue
         {
             get => yValue;
-            internal set { OnLoggerPropertyChanged(yValue, value); yValue = value; }
+            internal set {/* OnLoggerPropertyChanged(yValue, value);*/ yValue = value; }
         }
 
         public override int XDirection
         {
             get => xDirection;
             set {xDirection = value;
-                OnLoggerPropertyChanged(xDirection, value); 
+               // OnLoggerPropertyChanged(xDirection, value); 
             }
         }
 
@@ -65,7 +66,7 @@ namespace Data
             get => yDirection;
             set {
                 yDirection = value;
-                OnLoggerPropertyChanged(yDirection, value);
+                //OnLoggerPropertyChanged(yDirection, value);
             }
         }
 
@@ -119,16 +120,22 @@ namespace Data
             PropertyChanged?.Invoke(this, new BallDataArgs(name, XValue, YValue));
         }
 
+        public void Update(Object s, PropertyChangedEventArgs e)
+        {
+            Logger.Instancce().zapiszLoga(new LoggerArgs(XValue,YValue,xDirection,yDirection,this.GetHashCode()));
 
-        private void OnLoggerPropertyChanged(
+        }
+
+
+        /*private void OnLoggerPropertyChanged(
             double oldValue, double newValue,
             [CallerMemberName] string? propertyName = null
         )
         {
-            Thread thread = new(
+            *//*Thread thread = new(
                 () => LoggerPropertyChanged?.Invoke(this,new LoggerArgs(propertyName, oldValue, newValue)));
-            thread.Start();
-        }
+            thread.Start();*//*
+        }*/
 
 
     }
