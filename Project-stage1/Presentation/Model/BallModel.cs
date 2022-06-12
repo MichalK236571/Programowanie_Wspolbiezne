@@ -48,17 +48,6 @@ namespace Presentation.Model
 
         public override void UpdateModelBalls(Object s, PropertyChangedEventArgs e)
         {
-            /*BallLogicAPI ball = (BallLogicAPI)s;
-            if (e.PropertyName == "XValue")
-            {
-                X = ball.XValue;
-            }
-            else if (e.PropertyName == "YValue")
-            {
-                Y = ball.YValue;
-            }*/
-
-            //BallArgsAPI args = (BallArgsAPI)e;
             BallLogicAPI ball = (BallLogicAPI)s;
             X = ball.XValue;
             Y = ball.YValue;

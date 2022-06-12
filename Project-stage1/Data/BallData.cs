@@ -18,7 +18,6 @@ namespace Data
         private Thread mov;
         private Thread log;
         public override event PropertyChangedEventHandler? PropertyChanged;
-        //internal override event PropertyChangedEventHandler? LoggerPropertyChanged;
         private const int FluentMoveTime = 8;
         public BallData(int x, int y, int r, int w, int xDir, int yDir)
         {
@@ -37,37 +36,30 @@ namespace Data
                 }
             });
             thread.Start();
-
-
-            /*          Thread thread = new Thread(Movement);
-                      thread.IsBackground = true;
-                      thread.Start();*/
         }
 
         public override int Radius
         {
             get => radius;
-            //set { radius = value; }
         }
 
         public override int XValue
         {
             get => xValue;
-           internal set { //OnLoggerPropertyChanged(xValue, value);
+           internal set { 
                           xValue = value; }
         }
 
         public override int YValue
         {
             get => yValue;
-            internal set {/* OnLoggerPropertyChanged(yValue, value);*/ yValue = value; }
+            internal set { yValue = value; }
         }
 
         public override int XDirection
         {
             get => xDirection;
             set {xDirection = value;
-               // OnLoggerPropertyChanged(xDirection, value); 
             }
         }
 
@@ -76,14 +68,12 @@ namespace Data
             get => yDirection;
             set {
                 yDirection = value;
-                //OnLoggerPropertyChanged(yDirection, value);
             }
         }
 
         public  int Weight
         {
             get => weight;
-            //set { weight = value; }
         }
         internal override void StartBall()
         {
@@ -115,8 +105,6 @@ namespace Data
                 }
 
                 stopwatch.Reset();
-                //Move();
-                //Thread.Sleep(6);
             }
         }
         public void Move()
@@ -127,16 +115,12 @@ namespace Data
 
         private void OnPropertyChanged([CallerMemberName] string? name = null)
         {
-            //PropertyChanged?.Invoke(this, new BallDataArgs(name, XValue, YValue));
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
-
-
         }
 
         public void Update(Object s, PropertyChangedEventArgs e)
         {
-            Logger.Instance().zapiszLoga(new LoggerArgs(XValue,YValue,xDirection,yDirection,this.GetHashCode()));
-
+            Logger.Instance().writeLog(new LoggerArgs(XValue,YValue,xDirection,yDirection,this.GetHashCode()));
         }
     }
 }

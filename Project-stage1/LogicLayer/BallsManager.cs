@@ -60,8 +60,7 @@ namespace Logic
             }
 
             BallDataAPI ballData = boardAPI.createDataBallAPI(x, y, radius, weight, xDirection, yDirection);
-            BallLogicAPI ball = BallLogicAPI.CreateBall(ballData.XValue, ballData.YValue, ballData.Radius/*, ballData.Weight,
-                ballData.XDirection, ballData.YDirection*/);
+            BallLogicAPI ball = BallLogicAPI.CreateBall(ballData.XValue, ballData.YValue, ballData.Radius);
             ballData.PropertyChanged += ball.Update!;
             ballData.PropertyChanged += CheckIfCollisioned!;
             list.Add(ball);
@@ -99,9 +98,6 @@ namespace Logic
         public void CheckIfCollisioned(Object s, PropertyChangedEventArgs e)
         {
             BallDataAPI ball = (BallDataAPI)s;
-            //BallDataArgsAPI args = (BallDataArgsAPI)e;
-            //if (e.PropertyName is not ("XValue" or "YValue")) return;
-
             BallReflection(ball, ball.XValue, ball.YValue);
             WallReflection(ball, ball.XValue, ball.YValue);
         }
