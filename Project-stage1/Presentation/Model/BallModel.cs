@@ -48,7 +48,7 @@ namespace Presentation.Model
 
         public override void UpdateModelBalls(Object s, PropertyChangedEventArgs e)
         {
-            BallLogicAPI ball = (BallLogicAPI)s;
+            /*BallLogicAPI ball = (BallLogicAPI)s;
             if (e.PropertyName == "XValue")
             {
                 X = ball.XValue;
@@ -56,7 +56,11 @@ namespace Presentation.Model
             else if (e.PropertyName == "YValue")
             {
                 Y = ball.YValue;
-            }
+            }*/
+
+            BallArgsAPI args = (BallArgsAPI)e;
+            X = args.X;
+            Y = args.Y;
         }
 
         private void RaisePropertyChanged([CallerMemberName] string? propertyName = null)

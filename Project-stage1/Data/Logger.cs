@@ -104,7 +104,7 @@ internal class Logger
                 CreateLogPattern, 
                 GetTimestamp(), 
                 o.GetType().Name, 
-                o.GetHashCode(), 
+                o.GetHashCode(),
                 sb.Remove(sb.Length - 2, 1)
             )
         );

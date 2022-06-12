@@ -16,7 +16,7 @@ namespace Data
         public abstract int XDirection { get; set; }
         public abstract int YDirection { get; set; }
         public abstract int Radius { get; }
-        public abstract int Weight { get;}
+        
 
         internal abstract void StartBall();
         internal abstract void Stop();

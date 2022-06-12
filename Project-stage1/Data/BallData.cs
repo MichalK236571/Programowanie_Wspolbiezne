@@ -69,7 +69,7 @@ namespace Data
             }
         }
 
-        public override int Weight
+        public  int Weight
         {
             get => weight;
             //set { weight = value; }

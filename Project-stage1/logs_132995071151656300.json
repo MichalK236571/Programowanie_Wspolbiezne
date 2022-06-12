@@ -1,0 +1,6054 @@
+{
+	"logs": [
+		{
+			"time_stamp": "12.06.2022 13:31:55:186",
+			"event": "Launched"
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:304",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"Radius": "15",
+			"XValue": "960",
+			"YValue": "667",
+			"XDirection": "0",
+			"YDirection": "-2",
+			"Weight": "100"
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:309",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"Radius": "15",
+			"XValue": "808",
+			"YValue": "207",
+			"XDirection": "-3",
+			"YDirection": "2",
+			"Weight": "100"
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:316",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"Radius": "15",
+			"XValue": "565",
+			"YValue": "79",
+			"XDirection": "-2",
+			"YDirection": "-1",
+			"Weight": "100"
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:319",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:319",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 667,
+			"new_value": 665
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:323",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 808,
+			"new_value": 805
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:328",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 207,
+			"new_value": 209
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:333",
+			"object_type": "BallData",
+			"object_id": 20869327,
+			"Radius": "15",
+			"XValue": "786",
+			"YValue": "151",
+			"XDirection": "3",
+			"YDirection": "2",
+			"Weight": "100"
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:340",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 565,
+			"new_value": 563
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:346",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 805,
+			"new_value": 802
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:346",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:353",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 209,
+			"new_value": 211
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:350",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 79,
+			"new_value": 78
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:361",
+			"object_type": "BallData",
+			"object_id": 53606218,
+			"Radius": "15",
+			"XValue": "359",
+			"YValue": "493",
+			"XDirection": "3",
+			"YDirection": "3",
+			"Weight": "100"
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:353",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 665,
+			"new_value": 663
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:357",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 563,
+			"new_value": 561
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:370",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 78,
+			"new_value": 77
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:383",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 211,
+			"new_value": 213
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:376",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 802,
+			"new_value": 799
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:399",
+			"object_type": "BallData",
+			"object_id": 12693918,
+			"Radius": "15",
+			"XValue": "622",
+			"YValue": "180",
+			"XDirection": "4",
+			"YDirection": "4",
+			"Weight": "100"
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:381",
+			"object_type": "BallData",
+			"object_id": 20869327,
+			"changed_property": "XValue",
+			"old_value": 786,
+			"new_value": 789
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:386",
+			"object_type": "BallData",
+			"object_id": 20869327,
+			"changed_property": "YValue",
+			"old_value": 151,
+			"new_value": 153
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:406",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:406",
+			"object_type": "BallData",
+			"object_id": 53606218,
+			"changed_property": "XValue",
+			"old_value": 359,
+			"new_value": 362
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:415",
+			"object_type": "BallData",
+			"object_id": 53606218,
+			"changed_property": "YValue",
+			"old_value": 493,
+			"new_value": 496
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:412",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 663,
+			"new_value": 661
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:435",
+			"object_type": "BallData",
+			"object_id": 53606218,
+			"changed_property": "XValue",
+			"old_value": 362,
+			"new_value": 365
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:430",
+			"object_type": "BallData",
+			"object_id": 20869327,
+			"changed_property": "XValue",
+			"old_value": 789,
+			"new_value": 792
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:440",
+			"object_type": "BallData",
+			"object_id": 20869327,
+			"changed_property": "YValue",
+			"old_value": 153,
+			"new_value": 155
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:448",
+			"object_type": "BallData",
+			"object_id": 12693918,
+			"changed_property": "XValue",
+			"old_value": 622,
+			"new_value": 626
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:448",
+			"object_type": "BallData",
+			"object_id": 53606218,
+			"changed_property": "YValue",
+			"old_value": 496,
+			"new_value": 499
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:454",
+			"object_type": "BallData",
+			"object_id": 12693918,
+			"changed_property": "YValue",
+			"old_value": 180,
+			"new_value": 184
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:464",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:470",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 661,
+			"new_value": 659
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:475",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 799,
+			"new_value": 796
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:481",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 213,
+			"new_value": 215
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:486",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:494",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 659,
+			"new_value": 657
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:497",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 561,
+			"new_value": 559
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:500",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 77,
+			"new_value": 76
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:510",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 796,
+			"new_value": 793
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:512",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 215,
+			"new_value": 217
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:522",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 793,
+			"new_value": 790
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:525",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 559,
+			"new_value": 557
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:528",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 76,
+			"new_value": 75
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:544",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 657,
+			"new_value": 655
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:544",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 217,
+			"new_value": 219
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:544",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:551",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 790,
+			"new_value": 787
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:562",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 557,
+			"new_value": 555
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:565",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 219,
+			"new_value": 221
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:568",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 75,
+			"new_value": 74
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:580",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:583",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 655,
+			"new_value": 653
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:588",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 787,
+			"new_value": 784
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:591",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 221,
+			"new_value": 223
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:602",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:604",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 653,
+			"new_value": 651
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:608",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 784,
+			"new_value": 781
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:613",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 223,
+			"new_value": 225
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:624",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:629",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 651,
+			"new_value": 649
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:634",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 555,
+			"new_value": 553
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:642",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 74,
+			"new_value": 73
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:651",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 781,
+			"new_value": 778
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:654",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 225,
+			"new_value": 227
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:665",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:671",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 649,
+			"new_value": 647
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:682",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 778,
+			"new_value": 775
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:685",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 227,
+			"new_value": 229
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:692",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 553,
+			"new_value": 551
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:696",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 73,
+			"new_value": 72
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:703",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:709",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 647,
+			"new_value": 645
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:712",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 775,
+			"new_value": 772
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:716",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 229,
+			"new_value": 231
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:722",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 551,
+			"new_value": 549
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:731",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 72,
+			"new_value": 71
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:739",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:742",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 645,
+			"new_value": 643
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:748",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 772,
+			"new_value": 769
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:751",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 231,
+			"new_value": 233
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:757",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 549,
+			"new_value": 547
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:769",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 71,
+			"new_value": 70
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:771",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:777",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 643,
+			"new_value": 641
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:786",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 769,
+			"new_value": 766
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:789",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 233,
+			"new_value": 235
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:793",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 547,
+			"new_value": 545
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:799",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 70,
+			"new_value": 69
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:808",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:815",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 641,
+			"new_value": 639
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:817",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 766,
+			"new_value": 763
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:822",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 235,
+			"new_value": 237
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:829",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 545,
+			"new_value": 543
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:833",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 69,
+			"new_value": 68
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:839",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:851",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 639,
+			"new_value": 637
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:855",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 763,
+			"new_value": 760
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:862",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 237,
+			"new_value": 239
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:865",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 543,
+			"new_value": 541
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:871",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 68,
+			"new_value": 67
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:883",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 637,
+			"new_value": 635
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:886",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:890",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 760,
+			"new_value": 757
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:899",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 239,
+			"new_value": 241
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:905",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 541,
+			"new_value": 539
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:912",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 67,
+			"new_value": 66
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:915",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:919",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 635,
+			"new_value": 633
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:925",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 757,
+			"new_value": 754
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:936",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 241,
+			"new_value": 243
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:938",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 539,
+			"new_value": 537
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:942",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 66,
+			"new_value": 65
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:951",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:953",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 633,
+			"new_value": 631
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:957",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 754,
+			"new_value": 751
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:965",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 243,
+			"new_value": 245
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:970",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 537,
+			"new_value": 535
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:976",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 65,
+			"new_value": 64
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:981",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:986",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 631,
+			"new_value": 629
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:992",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 751,
+			"new_value": 748
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:03:998",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 245,
+			"new_value": 247
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:5",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 535,
+			"new_value": 533
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:10",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 64,
+			"new_value": 63
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:15",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:19",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 629,
+			"new_value": 627
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:27",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 748,
+			"new_value": 745
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:36",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 247,
+			"new_value": 249
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:38",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 533,
+			"new_value": 531
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:43",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 63,
+			"new_value": 62
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:48",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:61",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 627,
+			"new_value": 625
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:65",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 745,
+			"new_value": 742
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:70",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 249,
+			"new_value": 251
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:77",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 531,
+			"new_value": 529
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:82",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 62,
+			"new_value": 61
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:89",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:96",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 625,
+			"new_value": 623
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:106",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 742,
+			"new_value": 739
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:112",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 251,
+			"new_value": 253
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:121",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 529,
+			"new_value": 527
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:124",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 61,
+			"new_value": 60
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:130",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:133",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 623,
+			"new_value": 621
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:144",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 253,
+			"new_value": 255
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:147",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 739,
+			"new_value": 736
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:150",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 527,
+			"new_value": 525
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:160",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 60,
+			"new_value": 59
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:165",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:173",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 621,
+			"new_value": 619
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:176",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 525,
+			"new_value": 523
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:180",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 59,
+			"new_value": 58
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:186",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 736,
+			"new_value": 733
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:191",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 255,
+			"new_value": 257
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:197",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:203",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 619,
+			"new_value": 617
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:212",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 523,
+			"new_value": 521
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:214",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 58,
+			"new_value": 57
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:225",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 257,
+			"new_value": 259
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:225",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 733,
+			"new_value": 730
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:225",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:225",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 617,
+			"new_value": 615
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:228",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 521,
+			"new_value": 519
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:235",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 57,
+			"new_value": 56
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:248",
+			"object_type": "BallData",
+			"object_id": 20869327,
+			"changed_property": "XValue",
+			"old_value": 792,
+			"new_value": 795
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:256",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 730,
+			"new_value": 727
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:256",
+			"object_type": "BallData",
+			"object_id": 20869327,
+			"changed_property": "YValue",
+			"old_value": 155,
+			"new_value": 157
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:261",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 259,
+			"new_value": 261
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:264",
+			"object_type": "BallData",
+			"object_id": 53606218,
+			"changed_property": "XValue",
+			"old_value": 365,
+			"new_value": 368
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:272",
+			"object_type": "BallData",
+			"object_id": 53606218,
+			"changed_property": "YValue",
+			"old_value": 499,
+			"new_value": 502
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:282",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:300",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 615,
+			"new_value": 613
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:303",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 727,
+			"new_value": 724
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:310",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 261,
+			"new_value": 263
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:314",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 519,
+			"new_value": 517
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:325",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 56,
+			"new_value": 55
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:333",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:335",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 613,
+			"new_value": 611
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:341",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 724,
+			"new_value": 721
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:349",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 263,
+			"new_value": 265
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:352",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:361",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 611,
+			"new_value": 609
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:363",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 517,
+			"new_value": 515
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:367",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 55,
+			"new_value": 54
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:375",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 721,
+			"new_value": 718
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:380",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 265,
+			"new_value": 267
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:386",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:392",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 609,
+			"new_value": 607
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:398",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 515,
+			"new_value": 513
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:403",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 54,
+			"new_value": 53
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:408",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 718,
+			"new_value": 715
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:412",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 267,
+			"new_value": 269
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:421",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:428",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 607,
+			"new_value": 605
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:437",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 513,
+			"new_value": 511
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:440",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 53,
+			"new_value": 52
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:449",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 715,
+			"new_value": 712
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:451",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 269,
+			"new_value": 271
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:459",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:464",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 605,
+			"new_value": 603
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:470",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 511,
+			"new_value": 509
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:478",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 52,
+			"new_value": 51
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:480",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 712,
+			"new_value": 709
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:487",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 271,
+			"new_value": 273
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:490",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:504",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 603,
+			"new_value": 601
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:509",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 709,
+			"new_value": 706
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:511",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 273,
+			"new_value": 275
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:521",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 509,
+			"new_value": 507
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:530",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 51,
+			"new_value": 50
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:533",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:538",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 601,
+			"new_value": 599
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:546",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 706,
+			"new_value": 703
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:552",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 275,
+			"new_value": 277
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:559",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 507,
+			"new_value": 505
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:565",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 50,
+			"new_value": 49
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:574",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:577",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 599,
+			"new_value": 597
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:584",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 703,
+			"new_value": 700
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:590",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 277,
+			"new_value": 279
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:597",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 505,
+			"new_value": 503
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:603",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 49,
+			"new_value": 48
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:609",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:615",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 597,
+			"new_value": 595
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:622",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 503,
+			"new_value": 501
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:628",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 48,
+			"new_value": 47
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:635",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 700,
+			"new_value": 697
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:638",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 279,
+			"new_value": 281
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:646",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:653",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 595,
+			"new_value": 593
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:662",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 501,
+			"new_value": 499
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:664",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 47,
+			"new_value": 46
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:668",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 697,
+			"new_value": 694
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:674",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 281,
+			"new_value": 283
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:682",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:687",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 593,
+			"new_value": 591
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:693",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 499,
+			"new_value": 497
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:700",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 46,
+			"new_value": 45
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:705",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 694,
+			"new_value": 691
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:711",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 283,
+			"new_value": 285
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:717",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 497,
+			"new_value": 495
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:721",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 45,
+			"new_value": 44
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:730",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:753",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 591,
+			"new_value": 589
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:753",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 691,
+			"new_value": 688
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:758",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 285,
+			"new_value": 287
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:764",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 495,
+			"new_value": 493
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:776",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 44,
+			"new_value": 43
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:778",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:784",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 589,
+			"new_value": 587
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:787",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 688,
+			"new_value": 685
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:798",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 287,
+			"new_value": 289
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:801",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 493,
+			"new_value": 491
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:808",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 43,
+			"new_value": 42
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:811",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:821",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 587,
+			"new_value": 585
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:825",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 685,
+			"new_value": 682
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:829",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 289,
+			"new_value": 291
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:835",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 491,
+			"new_value": 489
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:843",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 42,
+			"new_value": 41
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:849",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:855",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 585,
+			"new_value": 583
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:861",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 489,
+			"new_value": 487
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:868",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 41,
+			"new_value": 40
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:874",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:884",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 583,
+			"new_value": 581
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:886",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 487,
+			"new_value": 485
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:895",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 40,
+			"new_value": 39
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:901",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 682,
+			"new_value": 679
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:906",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 291,
+			"new_value": 293
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:914",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:919",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 581,
+			"new_value": 579
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:928",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 485,
+			"new_value": 483
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:930",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 39,
+			"new_value": 38
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:936",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:942",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 579,
+			"new_value": 577
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:947",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 679,
+			"new_value": 676
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:957",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 293,
+			"new_value": 295
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:965",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 483,
+			"new_value": 481
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:971",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 38,
+			"new_value": 37
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:977",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:986",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 577,
+			"new_value": 575
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:988",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 676,
+			"new_value": 673
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:04:995",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 295,
+			"new_value": 297
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:3",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 481,
+			"new_value": 479
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:5",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 37,
+			"new_value": 36
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:13",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:18",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 575,
+			"new_value": 573
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:26",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 479,
+			"new_value": 477
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:31",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 36,
+			"new_value": 35
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:40",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 673,
+			"new_value": 670
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:42",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 297,
+			"new_value": 299
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:52",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 573,
+			"new_value": 571
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:55",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:59",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 477,
+			"new_value": 475
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:65",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 35,
+			"new_value": 34
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:71",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 670,
+			"new_value": 667
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:81",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 299,
+			"new_value": 301
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:86",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:93",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 571,
+			"new_value": 569
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:100",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 475,
+			"new_value": 473
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:106",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 34,
+			"new_value": 33
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:114",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 667,
+			"new_value": 664
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:119",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 301,
+			"new_value": 303
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:126",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:134",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 569,
+			"new_value": 567
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:137",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 473,
+			"new_value": 471
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:144",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 33,
+			"new_value": 32
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:147",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:160",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 567,
+			"new_value": 565
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:163",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 664,
+			"new_value": 661
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:188",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 303,
+			"new_value": 305
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:197",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:208",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 565,
+			"new_value": 563
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:212",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 471,
+			"new_value": 469
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:217",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 32,
+			"new_value": 31
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:224",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 661,
+			"new_value": 658
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:236",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 305,
+			"new_value": 307
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:240",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:246",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 563,
+			"new_value": 561
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:249",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 469,
+			"new_value": 467
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:259",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 31,
+			"new_value": 30
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:262",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 658,
+			"new_value": 655
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:274",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 307,
+			"new_value": 309
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:277",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:281",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 561,
+			"new_value": 559
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:293",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 467,
+			"new_value": 465
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:295",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 30,
+			"new_value": 29
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:302",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 655,
+			"new_value": 652
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:311",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 309,
+			"new_value": 311
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:312",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:316",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 559,
+			"new_value": 557
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:328",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 465,
+			"new_value": 463
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:331",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 29,
+			"new_value": 28
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:336",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 652,
+			"new_value": 649
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:342",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 311,
+			"new_value": 313
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:351",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:357",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 557,
+			"new_value": 555
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:364",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 463,
+			"new_value": 461
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:368",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 28,
+			"new_value": 27
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:375",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 649,
+			"new_value": 646
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:380",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 313,
+			"new_value": 315
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:384",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:388",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 555,
+			"new_value": 553
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:396",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 461,
+			"new_value": 459
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:402",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 27,
+			"new_value": 26
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:407",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 646,
+			"new_value": 643
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:414",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 315,
+			"new_value": 317
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:423",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:428",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 553,
+			"new_value": 551
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:436",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 459,
+			"new_value": 457
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:442",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 26,
+			"new_value": 25
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:448",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 643,
+			"new_value": 640
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:452",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 317,
+			"new_value": 319
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:456",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:468",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 551,
+			"new_value": 549
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:472",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 457,
+			"new_value": 455
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:476",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 25,
+			"new_value": 24
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:481",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 640,
+			"new_value": 637
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:491",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 319,
+			"new_value": 321
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:497",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:505",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 549,
+			"new_value": 547
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:508",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 455,
+			"new_value": 453
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:513",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 24,
+			"new_value": 23
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:518",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 637,
+			"new_value": 634
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:528",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 321,
+			"new_value": 323
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:531",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:538",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 547,
+			"new_value": 545
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:544",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 453,
+			"new_value": 451
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:550",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 23,
+			"new_value": 22
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:559",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 634,
+			"new_value": 631
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:561",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 323,
+			"new_value": 325
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:566",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:575",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 545,
+			"new_value": 543
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:579",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 451,
+			"new_value": 449
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:585",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 22,
+			"new_value": 21
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:587",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 631,
+			"new_value": 628
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:598",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 325,
+			"new_value": 327
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:601",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:605",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 543,
+			"new_value": 541
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:611",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 449,
+			"new_value": 447
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:617",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 21,
+			"new_value": 20
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:624",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:628",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 541,
+			"new_value": 539
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:640",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 447,
+			"new_value": 445
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:644",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 20,
+			"new_value": 19
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:649",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 628,
+			"new_value": 625
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:662",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 327,
+			"new_value": 329
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:664",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:669",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 539,
+			"new_value": 537
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:677",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 445,
+			"new_value": 443
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:681",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 19,
+			"new_value": 18
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:688",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 625,
+			"new_value": 622
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:697",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 329,
+			"new_value": 331
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:699",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:706",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 537,
+			"new_value": 535
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:709",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 443,
+			"new_value": 441
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:719",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 18,
+			"new_value": 17
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:722",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 622,
+			"new_value": 619
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:726",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 331,
+			"new_value": 333
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:732",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:743",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 535,
+			"new_value": 533
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:747",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 441,
+			"new_value": 439
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:752",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 17,
+			"new_value": 16
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:758",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 619,
+			"new_value": 616
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:764",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 333,
+			"new_value": 335
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:770",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:776",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 533,
+			"new_value": 531
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:782",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:788",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 616,
+			"new_value": 613
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:791",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YDirection",
+			"old_value": 1,
+			"new_value": 1
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:794",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 335,
+			"new_value": 337
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:807",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 531,
+			"new_value": 529
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:807",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 439,
+			"new_value": 437
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:812",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 16,
+			"new_value": 17
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:820",
+			"object_type": "BallData",
+			"object_id": 20869327,
+			"changed_property": "XValue",
+			"old_value": 795,
+			"new_value": 798
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:826",
+			"object_type": "BallData",
+			"object_id": 20869327,
+			"changed_property": "YValue",
+			"old_value": 157,
+			"new_value": 159
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:834",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:837",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 529,
+			"new_value": 527
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:845",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 613,
+			"new_value": 610
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:852",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 337,
+			"new_value": 339
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:859",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 437,
+			"new_value": 435
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:867",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 17,
+			"new_value": 18
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:875",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:878",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 527,
+			"new_value": 525
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:882",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 610,
+			"new_value": 607
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:895",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 339,
+			"new_value": 341
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:898",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 435,
+			"new_value": 433
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:905",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 18,
+			"new_value": 19
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:911",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:921",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 525,
+			"new_value": 523
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:923",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 607,
+			"new_value": 604
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:931",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 341,
+			"new_value": 343
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:939",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 433,
+			"new_value": 431
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:941",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 19,
+			"new_value": 20
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:947",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:951",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 523,
+			"new_value": 521
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:964",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 604,
+			"new_value": 601
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:967",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 343,
+			"new_value": 345
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:974",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 431,
+			"new_value": 429
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:977",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 20,
+			"new_value": 21
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:988",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:992",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 521,
+			"new_value": 519
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:05:997",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 601,
+			"new_value": 598
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:5",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 345,
+			"new_value": 347
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:14",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 429,
+			"new_value": 427
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:17",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 21,
+			"new_value": 22
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:27",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:32",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 519,
+			"new_value": 517
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:42",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 427,
+			"new_value": 425
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:46",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 22,
+			"new_value": 23
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:49",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 598,
+			"new_value": 595
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:54",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 347,
+			"new_value": 349
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:63",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:73",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 517,
+			"new_value": 515
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:77",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 425,
+			"new_value": 423
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:82",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 23,
+			"new_value": 24
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:115",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 595,
+			"new_value": 592
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:127",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 349,
+			"new_value": 351
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:133",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:139",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 515,
+			"new_value": 513
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:141",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 423,
+			"new_value": 421
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:148",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 24,
+			"new_value": 25
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:154",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 592,
+			"new_value": 589
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:162",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 351,
+			"new_value": 353
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:169",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:173",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 513,
+			"new_value": 511
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:177",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 421,
+			"new_value": 419
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:181",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 25,
+			"new_value": 26
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:191",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 589,
+			"new_value": 586
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:195",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 353,
+			"new_value": 355
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:201",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 419,
+			"new_value": 417
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:209",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 26,
+			"new_value": 27
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:211",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:218",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 511,
+			"new_value": 509
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:225",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 586,
+			"new_value": 583
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:234",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 355,
+			"new_value": 357
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:238",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 417,
+			"new_value": 415
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:245",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 27,
+			"new_value": 28
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:250",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:258",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 509,
+			"new_value": 507
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:267",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 583,
+			"new_value": 580
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:270",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 357,
+			"new_value": 359
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:278",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 415,
+			"new_value": 413
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:285",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 28,
+			"new_value": 29
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:293",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:301",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 507,
+			"new_value": 505
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:307",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 580,
+			"new_value": 577
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:312",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 359,
+			"new_value": 361
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:317",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 413,
+			"new_value": 411
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:323",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 29,
+			"new_value": 30
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:329",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:334",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 505,
+			"new_value": 503
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:340",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 577,
+			"new_value": 574
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:348",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 361,
+			"new_value": 363
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:353",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:356",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 503,
+			"new_value": 501
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:369",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 411,
+			"new_value": 409
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:373",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 30,
+			"new_value": 31
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:379",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 574,
+			"new_value": 571
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:384",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 363,
+			"new_value": 365
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:393",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:395",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 501,
+			"new_value": 499
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:402",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 409,
+			"new_value": 407
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:405",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 31,
+			"new_value": 32
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:415",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 571,
+			"new_value": 568
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:419",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 365,
+			"new_value": 367
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:426",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:429",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 499,
+			"new_value": 497
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:436",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 407,
+			"new_value": 405
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:444",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 32,
+			"new_value": 33
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:449",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 568,
+			"new_value": 565
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:455",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 367,
+			"new_value": 369
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:462",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:467",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 497,
+			"new_value": 495
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:475",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 405,
+			"new_value": 403
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:477",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 33,
+			"new_value": 34
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:485",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 565,
+			"new_value": 562
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:491",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 369,
+			"new_value": 371
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:498",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:508",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 495,
+			"new_value": 493
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:514",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 562,
+			"new_value": 559
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:518",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 371,
+			"new_value": 373
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:531",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 403,
+			"new_value": 401
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:535",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 34,
+			"new_value": 35
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:538",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:549",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 493,
+			"new_value": 491
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:553",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 559,
+			"new_value": 556
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:559",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 373,
+			"new_value": 375
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:563",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 401,
+			"new_value": 399
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:591",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 35,
+			"new_value": 36
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:596",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:605",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 556,
+			"new_value": 553
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:608",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 491,
+			"new_value": 489
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:611",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 375,
+			"new_value": 377
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:617",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 399,
+			"new_value": 397
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:625",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 36,
+			"new_value": 37
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:631",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:637",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 489,
+			"new_value": 487
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:641",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 553,
+			"new_value": 550
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:646",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 377,
+			"new_value": 379
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:652",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 397,
+			"new_value": 395
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:655",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 37,
+			"new_value": 38
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:663",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:669",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 487,
+			"new_value": 485
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:679",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 550,
+			"new_value": 547
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:683",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 379,
+			"new_value": 381
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:687",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 395,
+			"new_value": 393
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:696",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 38,
+			"new_value": 39
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:704",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:707",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 485,
+			"new_value": 483
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:714",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 547,
+			"new_value": 544
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:721",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 381,
+			"new_value": 383
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:731",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 393,
+			"new_value": 391
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:735",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 39,
+			"new_value": 40
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:738",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 544,
+			"new_value": 541
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:748",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 383,
+			"new_value": 385
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:756",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:759",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 483,
+			"new_value": 481
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:762",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 391,
+			"new_value": 389
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:772",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 40,
+			"new_value": 41
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:777",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 541,
+			"new_value": 538
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:783",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 385,
+			"new_value": 387
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:788",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:795",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 481,
+			"new_value": 479
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:804",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 389,
+			"new_value": 387
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:807",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 41,
+			"new_value": 42
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:813",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 538,
+			"new_value": 535
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:816",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 387,
+			"new_value": 389
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:822",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:830",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 479,
+			"new_value": 477
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:836",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 535,
+			"new_value": 532
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:841",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 389,
+			"new_value": 391
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:847",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 387,
+			"new_value": 385
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:852",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 42,
+			"new_value": 43
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:860",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:865",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 477,
+			"new_value": 475
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:871",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 532,
+			"new_value": 529
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:880",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 391,
+			"new_value": 393
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:882",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 385,
+			"new_value": 383
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:893",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 43,
+			"new_value": 44
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:895",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:903",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 475,
+			"new_value": 473
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:908",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 529,
+			"new_value": 526
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:917",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 393,
+			"new_value": 395
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:920",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 383,
+			"new_value": 381
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:928",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 44,
+			"new_value": 45
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:934",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 526,
+			"new_value": 523
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:942",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 395,
+			"new_value": 397
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:947",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 381,
+			"new_value": 379
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:953",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 45,
+			"new_value": 46
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:960",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:966",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 473,
+			"new_value": 471
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:973",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 523,
+			"new_value": 520
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:979",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 397,
+			"new_value": 399
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:986",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 379,
+			"new_value": 377
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:06:992",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 46,
+			"new_value": 47
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:0",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 520,
+			"new_value": 517
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:7",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 399,
+			"new_value": 401
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:13",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:23",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 471,
+			"new_value": 469
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:26",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 377,
+			"new_value": 375
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:36",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 47,
+			"new_value": 48
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:38",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 517,
+			"new_value": 514
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:45",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 401,
+			"new_value": 403
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:54",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:57",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 469,
+			"new_value": 467
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:65",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 375,
+			"new_value": 373
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:73",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 48,
+			"new_value": 49
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:76",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 514,
+			"new_value": 511
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:84",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 403,
+			"new_value": 405
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:91",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:101",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 467,
+			"new_value": 465
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:103",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 373,
+			"new_value": 371
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:109",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 49,
+			"new_value": 50
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:112",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 511,
+			"new_value": 508
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:125",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 405,
+			"new_value": 407
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:127",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:137",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 465,
+			"new_value": 463
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:139",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 371,
+			"new_value": 369
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:146",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 50,
+			"new_value": 51
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:154",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 508,
+			"new_value": 505
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:158",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 407,
+			"new_value": 409
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:164",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:167",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 463,
+			"new_value": 461
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:177",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 369,
+			"new_value": 367
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:181",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 51,
+			"new_value": 52
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:188",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 505,
+			"new_value": 502
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:195",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 409,
+			"new_value": 411
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:203",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:206",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 461,
+			"new_value": 459
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:215",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 367,
+			"new_value": 365
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:221",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 52,
+			"new_value": 53
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:233",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 502,
+			"new_value": 499
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:237",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 411,
+			"new_value": 413
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:241",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:252",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 459,
+			"new_value": 457
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:258",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 499,
+			"new_value": 496
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:261",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 413,
+			"new_value": 415
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:273",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 365,
+			"new_value": 363
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:277",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 53,
+			"new_value": 54
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:281",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:292",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 457,
+			"new_value": 455
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:295",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 496,
+			"new_value": 493
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:301",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 415,
+			"new_value": 417
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:309",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 363,
+			"new_value": 361
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:312",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 54,
+			"new_value": 55
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:319",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:327",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 455,
+			"new_value": 453
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:337",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 493,
+			"new_value": 490
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:340",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 417,
+			"new_value": 419
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:346",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 361,
+			"new_value": 359
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:350",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 55,
+			"new_value": 56
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:355",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:367",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 453,
+			"new_value": 451
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:370",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 490,
+			"new_value": 487
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:376",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 419,
+			"new_value": 421
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:379",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 359,
+			"new_value": 357
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:391",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 56,
+			"new_value": 57
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:395",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:400",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 451,
+			"new_value": 449
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:404",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 487,
+			"new_value": 484
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:414",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 421,
+			"new_value": 423
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:418",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 357,
+			"new_value": 355
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:429",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 57,
+			"new_value": 58
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:432",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:442",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 449,
+			"new_value": 447
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:445",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 484,
+			"new_value": 481
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:452",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 423,
+			"new_value": 425
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:455",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:465",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 447,
+			"new_value": 445
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:471",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 355,
+			"new_value": 353
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:477",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 58,
+			"new_value": 59
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:483",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 481,
+			"new_value": 478
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:489",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 425,
+			"new_value": 427
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:496",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:506",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 445,
+			"new_value": 443
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:509",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 353,
+			"new_value": 351
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:515",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 59,
+			"new_value": 60
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:520",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 478,
+			"new_value": 475
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:526",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 427,
+			"new_value": 429
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:534",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:537",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 443,
+			"new_value": 441
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:544",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 351,
+			"new_value": 349
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:551",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 60,
+			"new_value": 61
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:554",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:561",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 441,
+			"new_value": 439
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:564",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 475,
+			"new_value": 472
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:575",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 429,
+			"new_value": 431
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:578",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 349,
+			"new_value": 347
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:583",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 61,
+			"new_value": 62
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:590",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:594",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 439,
+			"new_value": 437
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:603",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 472,
+			"new_value": 469
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:610",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 431,
+			"new_value": 433
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:612",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 347,
+			"new_value": 345
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:619",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 62,
+			"new_value": 63
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:629",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:632",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 437,
+			"new_value": 435
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:639",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 469,
+			"new_value": 466
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:646",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 433,
+			"new_value": 435
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:653",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 345,
+			"new_value": 343
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:663",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 63,
+			"new_value": 64
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:668",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 466,
+			"new_value": 463
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:677",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 435,
+			"new_value": 437
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:679",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:686",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 435,
+			"new_value": 433
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:691",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 343,
+			"new_value": 341
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:698",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 64,
+			"new_value": 65
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:704",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 463,
+			"new_value": 460
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:712",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 437,
+			"new_value": 439
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:715",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:720",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 433,
+			"new_value": 431
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:732",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 341,
+			"new_value": 339
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:734",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 65,
+			"new_value": 66
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:741",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 460,
+			"new_value": 457
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:746",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 439,
+			"new_value": 441
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:752",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:761",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 431,
+			"new_value": 429
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:763",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 339,
+			"new_value": 337
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:767",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 66,
+			"new_value": 67
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:773",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 457,
+			"new_value": 454
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:783",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 441,
+			"new_value": 443
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:788",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:791",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 429,
+			"new_value": 427
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:796",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 337,
+			"new_value": 335
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:805",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:805",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 67,
+			"new_value": 68
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:809",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 427,
+			"new_value": 425
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:820",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 454,
+			"new_value": 451
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:824",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 443,
+			"new_value": 445
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:831",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 335,
+			"new_value": 333
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:838",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 68,
+			"new_value": 69
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:843",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 451,
+			"new_value": 448
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:849",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 445,
+			"new_value": 447
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:859",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:862",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 425,
+			"new_value": 423
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:866",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 333,
+			"new_value": 331
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:877",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 69,
+			"new_value": 70
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:880",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 448,
+			"new_value": 445
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:888",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 447,
+			"new_value": 449
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:896",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:905",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 423,
+			"new_value": 421
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:908",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 331,
+			"new_value": 329
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:912",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 70,
+			"new_value": 71
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:918",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "XValue",
+			"old_value": 445,
+			"new_value": 442
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:925",
+			"object_type": "BallData",
+			"object_id": 4400168,
+			"changed_property": "YValue",
+			"old_value": 449,
+			"new_value": 451
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:936",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "XValue",
+			"old_value": 329,
+			"new_value": 327
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:939",
+			"object_type": "BallData",
+			"object_id": 39601516,
+			"changed_property": "YValue",
+			"old_value": 71,
+			"new_value": 72
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:945",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "XValue",
+			"old_value": 960,
+			"new_value": 960
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:948",
+			"object_type": "BallData",
+			"object_id": 52684690,
+			"changed_property": "YValue",
+			"old_value": 421,
+			"new_value": 419
+		},
+		{
+			"time_stamp": "12.06.2022 13:32:07:953",
+			"event": "Completed"
+		}
+	]
+}

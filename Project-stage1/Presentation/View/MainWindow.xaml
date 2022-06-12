@@ -37,8 +37,8 @@
                 <DataTemplate>
                     <Path Fill="#9ee5ff" Stroke="Black">
                         <Path.Data>
-                            <EllipseGeometry RadiusX="{Binding Radius}"
-                                             RadiusY="{Binding Radius}"/>
+                            <EllipseGeometry RadiusX="15"
+                                             RadiusY="15"/>
                         </Path.Data>
                     </Path>
                 </DataTemplate>
