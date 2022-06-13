@@ -3,7 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace DataTest
 {
-    /*[TestClass]
+    [TestClass]
     public class BoardTest
     {
         [TestMethod]
@@ -11,18 +11,15 @@ namespace DataTest
         {
             BoardAPI boardAPI = BoardAPI.createAPI(20, 20);
             boardAPI.createDataBallAPI(10, 10, 10, 10);
-            Assert.AreEqual(1,boardAPI.getBalls().Count);
+            Assert.AreEqual(1, boardAPI.getBalls().Count);
         }
 
         [TestMethod]
-        public void removeBalls_Test()
+        public void createAPI_Test()
         {
             BoardAPI boardAPI = BoardAPI.createAPI(20, 20);
-            boardAPI.createDataBallAPI(10, 10, 10, 10);
-            boardAPI.createDataBallAPI(10, 10, 10, 10);
-            Assert.AreEqual(2, boardAPI.getBalls().Count);
-            boardAPI.removeBalls();
-            Assert.AreEqual(0, boardAPI.getBalls().Count);
+            Assert.AreEqual(20,boardAPI.Width);
+            Assert.AreEqual(20,boardAPI.Height);
         }
-    }*/
+    }
 }
