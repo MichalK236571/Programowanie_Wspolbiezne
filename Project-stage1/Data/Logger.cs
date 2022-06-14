@@ -8,13 +8,7 @@ namespace Data;
 internal class Logger
 {
 
-    private string Begining = "{\n" +
-                                     "\t\"logs\": [";
 
-    private string Ending = "\t]\n" +
-                                   "}";
-
-    private const string filePath = "../../../../logs_{0}.json";
 
     private readonly string fileName;
     private object fileLock = new();
@@ -23,10 +17,10 @@ internal class Logger
 
     public Logger()
     {
-        fileName = string.Format(filePath, DateTime.Now.ToFileTime());
+        fileName = string.Format("../../../../logs_{0}.json", DateTime.Now.ToFileTime());
 
         using StreamWriter writer = File.AppendText(fileName);
-        writer.WriteLineAsync(Begining);
+        writer.WriteLineAsync("{\n\t\"logs\": [");
         writer.Close();
     }
 
@@ -43,7 +37,7 @@ internal class Logger
     public void EndLogging()
     {
         using StreamWriter writer = File.AppendText(fileName);
-        writer.WriteLineAsync(Ending);
+        writer.WriteLineAsync("\t]\n}");
         writer.Close();
     }
 

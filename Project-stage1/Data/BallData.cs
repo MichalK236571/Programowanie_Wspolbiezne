@@ -15,10 +15,10 @@ namespace Data
         private int weight;
         private int radius;
         private bool moving = true;
-        private Thread mov;
-        private Thread log;
+        private Thread move;
+        
         public override event PropertyChangedEventHandler? PropertyChanged;
-        private const int FluentMoveTime = 8;
+        
         public BallData(int x, int y, int r, int w, int xDir, int yDir)
         {
             radius = r;
@@ -27,15 +27,15 @@ namespace Data
             xDirection = xDir;
             yDirection = yDir;
             weight = w;
-            mov = new(Movement) { IsBackground = true };
-            Thread thread = new Thread(() =>
+            move = new(Movement) { IsBackground = true };
+            Thread log = new Thread(() =>
             {
                 lock (lockLog)
                 {
                     this.PropertyChanged += Update;
                 }
             });
-            thread.Start();
+            log.Start();
         }
 
         public override int Radius
@@ -77,7 +77,7 @@ namespace Data
         }
         internal override void StartBall()
         {
-            mov.Start();
+            move.Start();
         }
         internal override void Stop()
         {
@@ -99,9 +99,9 @@ namespace Data
 
                 stopwatch.Stop();
 
-                if ((int)stopwatch.ElapsedMilliseconds < FluentMoveTime)
+                if ((int)stopwatch.ElapsedMilliseconds < 8)
                 {
-                    Thread.Sleep(FluentMoveTime - (int)stopwatch.ElapsedMilliseconds);
+                    Thread.Sleep(8 - (int)stopwatch.ElapsedMilliseconds);
                 }
 
                 stopwatch.Reset();
