@@ -83,7 +83,7 @@ namespace Data
         {
             moving = false;
         }
-        public  void Movement()
+        private  void Movement()
         {
             Stopwatch stopwatch = new();
             while (moving)
@@ -107,11 +107,7 @@ namespace Data
                 stopwatch.Reset();
             }
         }
-        public void Move()
-        {
-            XValue += XDirection;
-            YValue += YDirection;
-        }
+       
 
         private void OnPropertyChanged([CallerMemberName] string? name = null)
         {
